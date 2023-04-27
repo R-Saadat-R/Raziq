@@ -1,6 +1,6 @@
 #SCTIPT OPEN SOURCE BY KRS
 #GITHUB : github.com/TEAM-KRS
- 
+
 from os import path
 import os,base64,zlib,pip,urllib,time,random,requests
 from bs4 import BeautifulSoup as sop
@@ -17,7 +17,7 @@ except ModuleNotFoundError:
         os.system('git pull')
 except:pass
 fbks=(f'com.facebook.adsmanager','com.facebook.lite','com.facebook.orca','com.facebook.katana','com.facebook.mlite')
- 
+
 ugen=[]
 ugen=[]
 useragent=[]
@@ -65,7 +65,7 @@ BK = '\x1b[1;103m' # BELAKANG KUNING
 BH = '\x1b[1;102m' # BELAKANG HIJAU
 BM = '\x1b[1;101m' # BELAJANG MERAH
 BA = '\x1b[1;100m' # BELAKANG ABU ABU       
- 
+
 logo=("""   
 \033[1;32m    888    d8P  8888888b.   .d8888b.  
 \033[1;32m    888   d8P   888   Y88b d88P  Y88b 
@@ -84,7 +84,7 @@ logo=("""
 \033[1;32m   \033[1;35mTEAM         :  \033[1;35mKRS
 \033[1;34m   \033[1;32mTOOL VIRSION :  \033[1;32m7.0
 \033[1;32m-------------------------------------------""")
- 
+
 def linex():
         print("\033[1;32m-------------------------------------------")
 def clear():
@@ -97,16 +97,16 @@ krk=[]
 id=[]
 tokenku=[]
 os.system('git pull')
- 
- 
- 
- 
- 
+
+
+
+
+
 def KRRSS():
 	clear()
 	
 	print(f"\n \033[1;37m[\033[1;32m1\033[1;37m] FILE CLONEING ")
-	#print(f" [\033[1;32m2\033[1;37m] RANDOM CLONE")
+	print(f" [\033[1;32m2\033[1;37m] RANDOM CLONE")
 	print(f" [\033[1;31m0\033[1;37m] Exit")
 	me=input(f'\n\n [\033[1;32m•\033[1;37m] Choice : ')
 	
@@ -197,7 +197,7 @@ def m1(ids,names,passlist):
                 time.sleep(10)
         loop+=1
                         
- 
+
 def m2(ids,names,passlist):
         global loop,oks,cps
         sys.stdout.write(f'\r\r\033[1;37m [KRS] \033[1;36m|\033[1;37m %s \033[1;36m|\033[1;37m OK \033[1;36m|\033[1;37m [\033[1;32m%s\033[1;37m]'%(loop,len(oks)));sys.stdout.flush()
@@ -240,6 +240,6 @@ def m2(ids,names,passlist):
         except requests.exceptions.ConnectionError:
                 time.sleep(10)
         loop+=1
- 
- 
+
+
 KRRSS()
