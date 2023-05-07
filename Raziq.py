@@ -469,12 +469,13 @@ class Main:
 				self.id.append(__+str(_))
 			
 			ps_limit = int(input(' How many passwords do you want to add ? '))
-			except:
-			ps_limit =1
-		linex()
 			with ThreadPoolExecutor(max_workers=30) as coeg:
-				print("\n\033[1;32m [!] Ex(123456,100200,500600,786786,etc..) FOR Old IDZ\033[1;37m ")
-				listpass = input("%s [?] ENTER PASSWORD :%s "%(G,Y))
+				print("\n\033[1;32m [!] Ex(123456,100200,500600,786786,etc..)\033[1;37m ")
+				print("\033[0;94m•••••••••••••••••••••••••••••••••••••••••••••• ")
+				listpass = input("%s [1] ENTER PASSWORD :%s "%(G,Y))
+				listpass = input("%s [2] ENTER PASSWORD :%s "%(G,Y))
+				listpass = input("%s [3] ENTER PASSWORD :%s "%(G,Y))
+				listpass = input("%s [4] ENTER PASSWORD :%s "%(G,Y))
 				if len(listpass)<=5:
 					exit("\n%s [!] PASSWORD MINIMUM 6.9 CHARACTERS"%(B))
 				print("%s [*] CRACK WITH PASSWORD -> [\033[0;91m%s\033[0;93m]"%(G,listpass))
@@ -902,12 +903,13 @@ class Main:
 				self.id.append(__+str(_))
 			
 			ps_limit = int(input(' How many passwords do you want to add ? '))
-			except:
-			ps_limit =1
-		linex()
 			with ThreadPoolExecutor(max_workers=30) as coeg:
-				print("\n\033[1;32m [!] Ex(123456,100200,500600,786786,etc..) FOR Old IDZ\033[1;37m ")
-				listpass = input("%s [?] ENTER PASSWORD :%s "%(G,Y))
+				print("\n\033[1;32m [!] Ex(123456,100200,500600,786786,etc..)\033[1;37m ")
+				print("\033[0;94m•••••••••••••••••••••••••••••••••••••••••••••• ")
+				listpass = input("%s [1] ENTER PASSWORD :%s "%(G,Y))
+				listpass = input("%s [2] ENTER PASSWORD :%s "%(G,Y))
+				listpass = input("%s [3] ENTER PASSWORD :%s "%(G,Y))
+				listpass = input("%s [4] ENTER PASSWORD :%s "%(G,Y))
 				if len(listpass)<=5:
 					exit("\n%s [!] PASSWORD MINIMUM 6.9 CHARACTERS"%(B))
 				print("%s [*] CRACK WITH PASSWORD -> [\033[0;91m%s\033[0;93m]"%(G,listpass))
