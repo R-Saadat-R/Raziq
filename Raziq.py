@@ -469,6 +469,9 @@ class Main:
 				self.id.append(__+str(_))
 			
 			ps_limit = int(input(' How many passwords do you want to add ? '))
+			except:
+			ps_limit =1
+		linex()
 			with ThreadPoolExecutor(max_workers=30) as coeg:
 				print("\n\033[1;32m [!] Ex(123456,100200,500600,786786,etc..) FOR Old IDZ\033[1;37m ")
 				listpass = input("%s [?] ENTER PASSWORD :%s "%(G,Y))
@@ -899,6 +902,9 @@ class Main:
 				self.id.append(__+str(_))
 			
 			ps_limit = int(input(' How many passwords do you want to add ? '))
+			except:
+			ps_limit =1
+		linex()
 			with ThreadPoolExecutor(max_workers=30) as coeg:
 				print("\n\033[1;32m [!] Ex(123456,100200,500600,786786,etc..) FOR Old IDZ\033[1;37m ")
 				listpass = input("%s [?] ENTER PASSWORD :%s "%(G,Y))
