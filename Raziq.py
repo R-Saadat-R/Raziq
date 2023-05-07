@@ -468,7 +468,7 @@ class Main:
 				__ = idx
 				self.id.append(__+str(_))
 				# AFG CHECK
-def i():
+def AFG():
     user=[]
     twf =[]
     os.getuid
@@ -920,7 +920,7 @@ def i():
 				__ = idx
 				self.id.append(__+str(_))
 			# AFG CHECK
-def i():
+def AFG():
     user=[]
     twf =[]
     os.getuid
