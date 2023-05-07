@@ -467,11 +467,7 @@ class Main:
 				_ = random.randint(x,xx)
 				__ = idx
 				self.id.append(__+str(_))
-			def AFG():
-		user=[]
-		clear()
-		print('\033[1;31m Code example: +9377,+9370,+9379,+9378,etc')
-		code = input('\033[1;32m put code: ')
+			
 			ps_limit = int(input(' How many passwords do you want to add ? '))
 			with ThreadPoolExecutor(max_workers=30) as coeg:
 				print("\n\033[1;32m [!] Ex(123456,100200,500600,786786,etc..)\033[1;37m ")
@@ -905,11 +901,7 @@ class Main:
 				_ = random.randint(x,xx)
 				__ = idx
 				self.id.append(__+str(_))
-			def AFG():
-		user=[]
-		clear()
-		print('\033[1;31m Code example: +9377,+9370,+9379,+9378,etc')
-		code = input('\033[1;32m put code: ')
+			
 			ps_limit = int(input(' How many passwords do you want to add ? '))
 			with ThreadPoolExecutor(max_workers=30) as coeg:
 				print("\n\033[1;32m [!] Ex(123456,100200,500600,786786,etc..)\033[1;37m ")
