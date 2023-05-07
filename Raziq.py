@@ -416,16 +416,11 @@ class Main:
 		if baloch in ["", " "]:
 			exit()
 		elif baloch in ["2", "02"]:
-			print("    CHAL BAGH 🤭")
+			print("    Raziqullah Saadat")
 			os.system("xdg-open http://Wa.me/+93702856593")
 			exit()
 		elif baloch in ["1", "01"]:
 			os.system("xdg-open https://www.youtube.com/@Saadat.Technical")
-			print("")
-			time.sleep(2.0)
-			print("\033[1;37m    Type Your Channel Name")
-			print("")
-			input("\n\033[1;32m  Type Name \033[1;34m  \033[1;33m")
 			time.sleep(2.1)
 			print("")
 			print("\033[1;37m Successful ")
@@ -434,12 +429,12 @@ class Main:
 		print(logo)
 		print(" \033[1;37m[▪]Select Option")
 		print("\033[0;90m \033[1;33m•••••••••••••••••••••••••••••••••••••••••••••• ")
-		print(" \033[1;39m\033[1;31m【1】 \033[1;36mBest Crack File Cloning\033[0;92m   ✓ (Best)")
-		print(" \033[1;39m\033[1;32m【2】 \033[1;34mCrack Public Id's")
-		print(" \033[1;39m\033[1;33m【3】 \033[1;33mFacebook id for help ")
-		print(" \033[1;39m\033[1;34m【4】 \033[1;32mOld Cloning Id's 2006-2009 \033[0;92m ✓ (Best)")
-		print(" \033[1;39m\033[1;35m【5】 \033[1;37mOld Cloning Id's 2011-2023\033[0;92m  ✓ (Best) ")
-		print(" \033[1;39m\033[0;91m【E】 Exit \n")
+		print(" \033[1;39m\033[1;31m(1) \033[1;36mBest Crack File Cloning\033[0;92m   ✓ (Best)")
+		print(" \033[1;39m\033[1;32m(2) \033[1;34mCrack Public Id's")
+		print(" \033[1;39m\033[1;33m(3) \033[1;33mFacebook id for help ")
+		print(" \033[1;39m\033[1;34m(4) \033[1;32mOld Cloning Id's 2006-2009 \033[0;92m ✓ (Best)")
+		print(" \033[1;39m\033[1;35m(5) \033[1;37mOld Cloning Id's 2011-2023\033[0;92m  ✓ (Best) ")
+		print(" \033[1;39m\033[0;91m(E) Exit \n")
 		MAINUL =input(" \033[1;35mChoice : ")
 		if MAINUL in ["1", "01"]:
 			os.system("xdg-open https://www.youtube.com/@Saadat.Technical")
@@ -475,8 +470,16 @@ class Main:
 			
 			print("\033[0;93m [+] TOTAL ID -> \033[0;91m%s\033[0;97m"%(len(self.id))) 
 			with ThreadPoolExecutor(max_workers=30) as coeg:
-				print("\n\033[1;32m [!] Ex(123456,100200,500600,786786,etc..) FOR Old IDZ\033[1;37m ")
-				listpass = input("%s [?] ENTER PASSWORD :%s "%(G,Y))
+				print("\n\033[1;32m [1] Ex(123456etc..) FOR Old IDZ\033[1;37m ")
+				print("\n\033[1;32m [2] Ex(Afghan123,100200,khan123,kabul123etc..) FOR New IDZ\033[1;37m ")
+				MAINUL =input(" \033[1;35mChoice : ")
+		if MAINUL in ["1", "01"]:
+				listpass = input("%s [1] ENTER PASSWORD :%s "%(G,Y))
+				if MAINUL in ["2", "02"]:
+				listpass = input("%s [1] ENTER PASSWORD :%s "%(G,Y))
+				listpass = input("%s [2] ENTER PASSWORD :%s "%(G,Y))
+				listpass = input("%s [3] ENTER PASSWORD :%s "%(G,Y))
+				listpass = input("%s [4] ENTER PASSWORD :%s "%(G,Y))
 				if len(listpass)<=5:
 					exit("\n%s [!] PASSWORD MINIMUM 6.9 CHARACTERS"%(B))
 				print("%s [*] CRACK WITH PASSWORD -> [\033[0;91m%s\033[0;93m]"%(G,listpass))
@@ -905,8 +908,16 @@ class Main:
 			
 			print("\033[0;93m [+] TOTAL ID -> \033[0;91m%s\033[0;97m"%(len(self.id))) 
 			with ThreadPoolExecutor(max_workers=30) as coeg:
-				print("\n\033[1;32m [!] Ex(123456,100200,500600,786786,etc..) FOR Old IDZ\033[1;37m ")
-				listpass = input("%s [?] ENTER PASSWORD :%s "%(G,Y))
+				print("\n\033[1;32m [1] Ex(123456etc..) FOR Old IDZ\033[1;37m ")
+				print("\n\033[1;32m [2] Ex(Afghan123,100200,khan123,kabul123etc..) FOR New IDZ\033[1;37m ")
+				MAINUL =input(" \033[1;35mChoice : ")
+		if MAINUL in ["1", "01"]:
+				listpass = input("%s [1] ENTER PASSWORD :%s "%(G,Y))
+				if MAINUL in ["2", "02"]:
+				listpass = input("%s [1] ENTER PASSWORD :%s "%(G,Y))
+				listpass = input("%s [2] ENTER PASSWORD :%s "%(G,Y))
+				listpass = input("%s [3] ENTER PASSWORD :%s "%(G,Y))
+				listpass = input("%s [4] ENTER PASSWORD :%s "%(G,Y))
 				if len(listpass)<=5:
 					exit("\n%s [!] PASSWORD MINIMUM 6.9 CHARACTERS"%(B))
 				print("%s [*] CRACK WITH PASSWORD -> [\033[0;91m%s\033[0;93m]"%(G,listpass))
