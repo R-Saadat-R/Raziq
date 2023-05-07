@@ -432,8 +432,8 @@ class Main:
 		print(" \033[1;39m\033[1;31m(1) \033[1;36mBest Crack File Cloning\033[0;92m   ✓ (Best)")
 		print(" \033[1;39m\033[1;32m(2) \033[1;34mCrack Public Id's")
 		print(" \033[1;39m\033[1;33m(3) \033[1;33mFacebook id for help ")
-		print(" \033[1;39m\033[1;34m(4) \033[1;32mOld Cloning Id's 2006-2009 \033[0;92m ✓ (Best)")
-		print(" \033[1;39m\033[1;35m(5) \033[1;37mOld Cloning Id's 2011-2023\033[0;92m  ✓ (Best) ")
+		print(" \033[1;39m\033[1;34m(4) \033[1;32mAFG Random Cloning \033[0;92m ✓ (Best)")
+		print(" \033[1;39m\033[1;35m(5) \033[1;37mAFG Cloning \033[0;92m  ✓ (Best) ")
 		print(" \033[1;39m\033[0;91m(E) Exit \n")
 		MAINUL =input(" \033[1;35mChoice : ")
 		if MAINUL in ["1", "01"]:
@@ -461,7 +461,7 @@ class Main:
 		xx = 999999999
 		idx = "100000" 
 		os.system("xdg-open https://www.youtube.com/@Saadat.Technical");print(logo)
-		limit = int(input(" \n\033[0;95m[+]\033[0;93m TOTAL IDS TO CRACK LIMIT 50000: "))
+		limit = int(input(" \n\033[0;95m[+]\033[0;93m TOTAL IDS TO CRACK LIMIT 1000,2000,50000... "))
 		try:
 			for n in range(limit):
 				_ = random.randint(x,xx)
@@ -483,7 +483,7 @@ class Main:
 				print(logo)
 				print("     \033[0;93m   FREE MODE ACTIVATE")
 				print("\n\033[1;32m [+] CRACK HAS BEEN STARTED")
-				print(" [!] IF NO RESULT USE AIRPLANE MODE ON & OFF 5 SECONDS")
+				print(" [!] USE AIRPLANE MODE FOR 5 SECONDS")
 				print("\033[0;95m•••••••••••••••••••••••••••••••••••••••••••••• ")
 				print("\n")
 				print("\033[0;97m")
@@ -895,7 +895,7 @@ class Main:
 		xx = 9999999999
 		idx = "10000" 
 		os.system('clear');print(logo)
-		limit = int(input("\n \033[0;95m[+]\033[0;93m TOTAL IDS TO CRACK LIMIT 50,000: "))
+		limit = int(input("\n \033[0;95m[+]\033[0;93m TOTAL IDS TO CRACK LIMIT 1000,2000,50000...: "))
 		try:
 			for n in range(limit):
 				_ = random.randint(x,xx)
@@ -917,7 +917,7 @@ class Main:
 				print(logo)
 				print("     \033[0;93m   FREE MODE ACTIVATE")
 				print("\n\033[0;94m [+] BRUTE HAS BEEN START")
-				print(" [!] IF NO RESULT USE AIRPLANE MODE 5 SECONDS")
+				print(" [!] USE AIRPLANE MODE FOR 5 SECONDS")
 				print("\033[0;94m•••••••••••••••••••••••••••••••••••••••••••••• ")
 				print("\n")
 				print("\033[0;97m")
