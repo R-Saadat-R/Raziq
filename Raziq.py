@@ -423,7 +423,7 @@ class Main:
 			os.system("xdg-open https://www.youtube.com/@Saadat.Technical")
 			time.sleep(2.1)
 			print("")
-			print("\033[1;37m Saadat  Cloning ")
+			print("\033[1;37m Saadat Cloning ")
 			time.sleep(2.0)
 			os.system("clear")
 		print(logo)
@@ -444,8 +444,8 @@ class Main:
 			Public()
 		if MAINUL in ["3", "03"]:
 			os.system('xdg-open https://www.facebook.com/profile.php?id=100028315179402 ')
-		AFG()
-                                elif x in ['4','04']:
+		if MAINUL in ["4", "04"]:
+			os.system("xdg-open https://www.facebook.com/profile.php?id=100028315179402")
 			self.old()
 		if MAINUL in ["5", "05"]:
 			os.system("xdg-openhttps://www.youtube.com/@Saadat.Technical ")
