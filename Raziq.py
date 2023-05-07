@@ -392,7 +392,7 @@ logo = """\033[1;30m
 \033[1;39m\033[0;91mYOUTUBE  \033[1;39m\033[1;32m Saadat TECHZNICAL
 \033[1;39m\033[0;91mFACEBOOK \033[1;39m\033[1;33m Raziqullah Saadat
 \033[1;39m\033[0;91mSATUTAS  \033[1;39m\033[0;92mFREE MODE
-\033[1;39m\033[0;91mVERSION  \033[1;39m\033[1;31m2.0.3
+\033[1;39m\033[0;91mVERSION  \033[1;39m\033[1;31m2.4
 \033[0;95m•••••••••••••••••••••••••••••••••••••••••••••• """
  
 class Main:
@@ -1290,7 +1290,7 @@ class Main:
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36",
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0",
 			"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
-	])
+])
 		sys.stdout.write(
 			"\r [Start]>%s/COUNT>%s -> \033[1;32mOk:-%s - \033[1;37mCp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
 		); sys.stdout.flush()
