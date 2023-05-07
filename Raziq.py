@@ -463,26 +463,17 @@ class Main:
 		os.system("xdg-open https://www.youtube.com/@Saadat.Technical");print(logo)
 		limit = int(input(" \n\033[0;95m[+]\033[0;93m TOTAL IDS TO CRACK LIMIT 50000: "))
 		try:
-			for n in range(limit):
-				_ = random.randint(x,xx)
-				__ = idx
-				self.id.append(__+str(_))
-			
-			print("\033[0;93m [+] TOTAL ID -> \033[0;91m%s\033[0;97m"%(len(self.id))) 
-			with ThreadPoolExecutor(max_workers=30) as coeg:
-				print("\n\033[1;32m [1] Ex(123456etc..) FOR Old IDZ\033[1;37m ")
-				print("\n\033[1;32m [2] Ex(Afghan123,100200,khan123,kabul123etc..) FOR New IDZ\033[1;37m ")
-				MAINUL =input(" \033[1;35mChoice : ")
-		if MAINUL in ["1", "01"]:
-				listpass = input("%s [1] ENTER PASSWORD :%s "%(G,Y))
-				if MAINUL in ["2", "02"]:
-				listpass = input("%s [1] ENTER PASSWORD :%s "%(G,Y))
-				listpass = input("%s [2] ENTER PASSWORD :%s "%(G,Y))
-				listpass = input("%s [3] ENTER PASSWORD :%s "%(G,Y))
-				listpass = input("%s [4] ENTER PASSWORD :%s "%(G,Y))
-				if len(listpass)<=5:
-					exit("\n%s [!] PASSWORD MINIMUM 6.9 CHARACTERS"%(B))
-				print("%s [*] CRACK WITH PASSWORD -> [\033[0;91m%s\033[0;93m]"%(G,listpass))
+		plist = []
+		try:
+			ps_limit = int(input(' How many passwords do you want to add ? '))
+		except:
+			ps_limit =1
+		linex()
+		print('\033[1;32m exp: first last,firtslast,first123')
+		linex()
+		for i in range(ps_limit):
+			plist.append(input(f' Put password {i+1}: '))
+		with tred(max_workers=30) as crack_submit:
 				os.system("clear")
 				print(logo)
 				print("     \033[0;93m   FREE MODE ACTIVATE")
@@ -901,26 +892,17 @@ class Main:
 		os.system('clear');print(logo)
 		limit = int(input("\n \033[0;95m[+]\033[0;93m TOTAL IDS TO CRACK LIMIT 50,000: "))
 		try:
-			for n in range(limit):
-				_ = random.randint(x,xx)
-				__ = idx
-				self.id.append(__+str(_))
-			
-			print("\033[0;93m [+] TOTAL ID -> \033[0;91m%s\033[0;97m"%(len(self.id))) 
-			with ThreadPoolExecutor(max_workers=30) as coeg:
-				print("\n\033[1;32m [1] Ex(123456etc..) FOR Old IDZ\033[1;37m ")
-				print("\n\033[1;32m [2] Ex(Afghan123,100200,khan123,kabul123etc..) FOR New IDZ\033[1;37m ")
-				MAINUL =input(" \033[1;35mChoice : ")
-		if MAINUL in ["1", "01"]:
-				listpass = input("%s [1] ENTER PASSWORD :%s "%(G,Y))
-				if MAINUL in ["2", "02"]:
-				listpass = input("%s [1] ENTER PASSWORD :%s "%(G,Y))
-				listpass = input("%s [2] ENTER PASSWORD :%s "%(G,Y))
-				listpass = input("%s [3] ENTER PASSWORD :%s "%(G,Y))
-				listpass = input("%s [4] ENTER PASSWORD :%s "%(G,Y))
-				if len(listpass)<=5:
-					exit("\n%s [!] PASSWORD MINIMUM 6.9 CHARACTERS"%(B))
-				print("%s [*] CRACK WITH PASSWORD -> [\033[0;91m%s\033[0;93m]"%(G,listpass))
+		plist = []
+		try:
+			ps_limit = int(input(' How many passwords do you want to add ? '))
+		except:
+			ps_limit =1
+		linex()
+		print('\033[1;32m exp: first last,firtslast,first123')
+		linex()
+		for i in range(ps_limit):
+			plist.append(input(f' Put password {i+1}: '))
+		with tred(max_workers=30) as crack_submit:
 				os.system("clear")
 				print(logo)
 				print("     \033[0;93m   FREE MODE ACTIVATE")
