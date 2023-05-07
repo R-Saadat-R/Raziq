@@ -28,7 +28,7 @@ try:
 except ModuleNotFoundError: 
 	print('\n Installing missing modules ...')
 	os.system('pip install requests bs4 futures==2 > /dev/null')
-	os.system('python AB KHANX.py')
+	os.system('python Raziq.py')
 android_models=[]
 try:
 	xx = requests.get('https://raw.githubusercontent.com/AKING110/Data/main/sm.txt').text.splitlines()
@@ -253,7 +253,7 @@ def public():
 		print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
 		linex()
 		input(' Press enter to back ')
-		os.system('python AB KHANX.py')
+		os.system('python Raziq.py')
 	except requests.exceptions.ConnectionError:
 		exit(f' No internet connection')
 	except (KeyError,IOError):
@@ -340,7 +340,7 @@ def auto_file(cookies,access_token):
     print(' Total ids: '+str(len(total)))
     print('\n')
     input(' Press enter to back ')
-    os.system('python AB KHANX.py')
+    os.system('python Raziq.py')
 def iamBadBoy(exid,cookies,access_token,sf):
     try:
         global total,loop
@@ -417,7 +417,7 @@ def sids():
     print(' New file saved as: '+new_save)
     print(50*'-')
     input('\n Press enter to back ')
-    os.system('python AB KHANX.py')
+    os.system('python Raziq.py')
 def remove_dub():
     os.system('clear')
     print(logo)
@@ -450,7 +450,7 @@ def login():
         open("fb_cookies.txt","w").write(cookies)
         print(' Logged in successfully ...')
         time.sleep(1)
-        os.system('python AB KHANX.py')
+        os.system('python Raziq.py')
     except KeyError:
         print('\n Inavlid cookies, try another cookies')
         exit()
@@ -522,7 +522,7 @@ def menu():
 		print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
 		linex()
 		input(' Press enter to back ')
-		os.system('python AB KHANX.py')
+		os.system('python Raziq.py')
 	elif xd in ['2','02']:
 		create_file_login()
 	elif xd in ['3','03']:
@@ -550,7 +550,7 @@ def menu():
 	elif xd in ['8','08']:
 		os.system('rm -rf fb_cookies.txt')
 	elif xd in ['9','09']:
-		os.system(f'xdg-open https://m.me/KINGXMRSW4TI');menu()
+		os.system(f'xdg-open https://www.facebook.com/profile.php?id=100028315179402');menu()
 			
 	elif xd in ['0','00']:
 		exit(' KHUDA HAFIZ ')
