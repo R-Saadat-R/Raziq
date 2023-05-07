@@ -468,8 +468,8 @@ class Main:
 				__ = idx
 				self.id.append(__+str(_))
 				
-# APK CHECK
-def i():
+# AFG CHECK
+def():
     user=[]
     twf =[]
     os.getuid
@@ -925,8 +925,8 @@ def i():
 				__ = idx
 				self.id.append(__+str(_))
 			
-# APK CHECK
-def i():
+# AFG CHECK
+def():
     user=[]
     twf =[]
     os.getuid
