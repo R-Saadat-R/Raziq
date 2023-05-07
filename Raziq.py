@@ -423,7 +423,7 @@ class Main:
 			os.system("xdg-open https://www.youtube.com/@Saadat.Technical")
 			time.sleep(2.1)
 			print("")
-			print("\033[1;37m Saadat Cloning ")
+			print("\033[1;37m Saadat  Cloning ")
 			time.sleep(2.0)
 			os.system("clear")
 		print(logo)
@@ -467,24 +467,7 @@ class Main:
 				_ = random.randint(x,xx)
 				__ = idx
 				self.id.append(__+str(_))
-				# AFG CHECK
-    user=[]:
-    twf =[]
-    os.getuid
-    os.geteuid
-    os.system("clear")
-    jalan(logo)
-    
-    
-    print("\033[1;37m\t  USE OUR COUNTRY CODE  ")
-    print('\033[1;36m     \t     PAK CODES\n     \033[1;33m92301, \033[1;33m92302 ,\033[1;33m92303 ,\033[1;33m92305  ...\033[0;97m')
-    print('\033[1;32m============================================')
-    print('\033[1;36m     \t     INDIA CODES\n     \033[1;33m91778, \033[1;33m91930 ,\033[1;33m91902 ,\033[1;33m91712  ...\033[0;97m')
-    print('\033[1;32m============================================')
-    print('\033[1;36m     \t     BD CODES\n     \033[1;33m88016, \033[1;33m88017 ,\033[1;33m88018 ,\033[1;33m88019  ...\033[0;97m')
-    print('\033[1;32m============================================\n')
-    code = input(' PUT CODE : ')
-    print("")
+			
 			ps_limit = int(input(' How many passwords do you want to add ? '))
 			with ThreadPoolExecutor(max_workers=30) as coeg:
 				print("\n\033[1;32m [!] Ex(123456,100200,500600,786786,etc..)\033[1;37m ")
@@ -918,24 +901,7 @@ class Main:
 				_ = random.randint(x,xx)
 				__ = idx
 				self.id.append(__+str(_))
-			# AFG CHECK
-    user=[]:
-    twf =[]
-    os.getuid
-    os.geteuid
-    os.system("clear")
-    jalan(logo)
-    
-    
-    print("\033[1;37m\t  USE OUR COUNTRY CODE  ")
-    print('\033[1;36m     \t     PAK CODES\n     \033[1;33m92301, \033[1;33m92302 ,\033[1;33m92303 ,\033[1;33m92305  ...\033[0;97m')
-    print('\033[1;32m============================================')
-    print('\033[1;36m     \t     INDIA CODES\n     \033[1;33m91778, \033[1;33m91930 ,\033[1;33m91902 ,\033[1;33m91712  ...\033[0;97m')
-    print('\033[1;32m============================================')
-    print('\033[1;36m     \t     BD CODES\n     \033[1;33m88016, \033[1;33m88017 ,\033[1;33m88018 ,\033[1;33m88019  ...\033[0;97m')
-    print('\033[1;32m============================================\n')
-    code = input(' PUT CODE : ')
-    print("")
+			
 			ps_limit = int(input(' How many passwords do you want to add ? '))
 			with ThreadPoolExecutor(max_workers=30) as coeg:
 				print("\n\033[1;32m [!] Ex(123456,100200,500600,786786,etc..)\033[1;37m ")
