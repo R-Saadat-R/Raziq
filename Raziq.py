@@ -1348,7 +1348,7 @@ def Subscraption():
 		print("")
 		print(" Copy And Send Key To Admin")
 		print ("")
-		print (" Your Key : "Saadat+jan+12)
+		print (" Your Key : "RS)
 		print ("")
 		name = input(" Your Name : Raziq Saadat ")
 		print ("")
