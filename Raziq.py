@@ -144,10 +144,8 @@ def cek_apk(session,coki):
 	x = sop.find("form",method="post")
 	game = [i.text for i in x.find_all("h3")]
 	if len(game)==0:
-		except KeyError:
 		print(f'\r%s [%sâ€¢%s] %sActive Apks & Web Not Found %s		'%(N,H,N,H,N))
 	else:
-		except KeyError:
 		print(f'\r{A} [â€¢]%s Active Apks & Web ðŸ‘‡ '%(H))
 		for i in range(len(game)):
 			print(f"\r%s [%s] %s %s "%(D,i+1,game[i].replace("Ditambahkan pada"," Ditambahkan pada"),D))
@@ -158,7 +156,6 @@ def cek_apk(session,coki):
 	if len(game)==0:
 		print(f'\r%s [%sâ€¢%s] %sExpired Apks & Web Not Found %s		'%(N,M,N,M,N))
 	else:
-		except KeyError:
 		print(f'\r{A} [â€¢]%s Expired Apks & Web ðŸ‘‡ '%(M))
 		for i in range(len(game)):
 			print(f"\r%s [%s] %s %s "%(C,i+1,game[i].replace("Kedaluwarsa"," Kedaluwarsa"),A))
