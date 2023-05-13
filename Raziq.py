@@ -567,7 +567,7 @@ def pak():
 		except ValueError:
 			limit = 5000
 		linex()
-		print(' [2] [1] Method 1 [2] Method 2 Best')
+		print('[2] Method 2 Best')
 		linex()
 		mthd = input(' Choose: ')
 		linex()
@@ -613,7 +613,7 @@ def bd():
 		except ValueError:
 			limit = 5000
 		linex()
-		print('[2] [1] Method 1 [2] Method 2 Best ')
+		print('[2] Method 2 Best ')
 		linex()
 		mthd = input(' Choose: ')
 		for nmbr in range(limit):
